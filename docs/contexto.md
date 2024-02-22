@@ -34,8 +34,18 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo - Marcus Vinicius
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+A solução de software desenvolvida pelo grupo tem como o objetivo de atingir os trabalhadores que possuem a necessidade de justificar os seus gastos para a organização.
+
+Seguem algumas ocasiões em que o aplicativo pode se implementado para as justificativas de gastos:
+
+* Hospedagem em hotéis;
+* Gasto com refeições;
+* Consumo de combustível;
+* Notas fiscais.
+
+
+
+A solução também será útil para a liderança, pois a partir do programa, eles conseguiram controlar os gastos dos seus funcionários e evitar fraudes dos seus colaboradores.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
