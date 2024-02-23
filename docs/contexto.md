@@ -13,6 +13,15 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+>
+> - No mundo corporativo é muito comum que funcionários dos mais variados níveis de hierarquia façam viagens de trabalho, atendendo a clientes em nome da empresa para a qual trabalham. Tais viagens geram diversos tipos de gastos como deslocamento, alimentação, hospedagem, entre outros. 
+De acordo com o artigo 2° da CLT, quando o trabalhador está viajando em nome da empresa, ela deve custear as despesas acarretadas pela viagem. Tais despesas podem ser pagas de três formas diferentes: diárias de viagem, adiantamento de despesas e reembolso de despesas. 
+As diárias de viagem geralmente são pagas antes do início da viagem ou em parcelas ao longo do período de deslocamento. O valor das diárias pode variar dependendo de diversos fatores, como o destino da viagem, a política da empresa, a duração da viagem e as despesas esperadas durante o período de estadia fora da sede. Ela não exige prestação de contas das despesas por parte do empregado, sendo de responsabilidade dele a administração do valor repassado pela empresa.
+No adiantamento de despesas, o funcionário recebe antecipadamente uma quantia para cobrir despesas relacionadas a uma viagem a trabalho. Esse adiantamento é concedido pela empresa para que o colaborador tenha fundos disponíveis para custear suas despesas e normalmente é calculado de maneira estimada, podendo ser maior ou menor do que os gastos que o trabalhador terá. Caso o valor seja estimado para mais, o colaborador deverá devolver o remanescente. Caso seja estimado para menos, um complemento deverá ser solicitado. Independente do caso, deve haver um processo de prestação de contas.
+Por fim, temos o reembolso de despesas. Neste caso, o funcionário paga por todas as despesas relacionadas à viagem e solicita à empresa o reembolso do valor. O pagamento é realizado mediante prestação de contas.
+O reembolso de despesas é uma prática comum, pois permite que os funcionários sejam reembolsados de forma justa pelos custos incorridos durante o desempenho de suas funções, ao mesmo tempo em que ajuda a manter um controle eficaz sobre os gastos corporativos.
+O problema é que não existe uma forma oficial para comprovação de gastos. Algumas empresas utilizam relatórios em planilhas, o que exige mui [continua]
+
 
 ## Objetivos - Cristiano Cardoso
 
