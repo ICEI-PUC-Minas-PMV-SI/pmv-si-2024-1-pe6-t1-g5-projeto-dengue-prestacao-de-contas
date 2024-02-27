@@ -34,6 +34,10 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa - Mateus Soares
 
+ A prática de viagens de trabalho é uma realidade no ambiente corporativo, sendo essencial para o bom andamento dos negócios, especialmente quando se trata do atendimento a clientes e representação da empresa em diversos locais. Diante dessa necessidade, é crucial estabelecer políticas claras de custeio de despesas relacionadas a essas viagens realizadas pelos empregados.
+ De acordo com os resultados mais recentes do Business Travel Outlook, a indústria global de viagens corporativas superou os impactos da pandemia e está experimentando um impulso significativo no início de 2023. Prevê-se que essa tendência de crescimento anual persista, sendo notável o compromisso contínuo das organizações em priorizar viagens sustentáveis em suas operações.
+ Sendo assim, a implementação de políticas claras e transparentes quanto ao custeio de despesas de viagens corporativas não apenas atende às exigências legais, mas também promove a eficiência operacional, o equilíbrio financeiro e a responsabilidade dos colaboradores, elementos essenciais para o sucesso e a integridade das operações empresariais.
+
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
 O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
