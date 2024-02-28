@@ -72,7 +72,7 @@ Seguem algumas ocasiões em que o aplicativo pode se implementado para as justif
 
 
 
-A solução também será útil para a liderança, pois a partir do programa, eles conseguiram controlar os gastos dos seus funcionários e evitar fraudes dos seus colaboradores.
+A solução também será útil para a liderança, pois a partir do programa, eles conseguirão controlar os gastos dos seus funcionários e evitar fraudes dos seus colaboradores.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
