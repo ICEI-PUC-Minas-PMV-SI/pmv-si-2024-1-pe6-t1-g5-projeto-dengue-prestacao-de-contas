@@ -3,25 +3,37 @@
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema - Lucas Bretas
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+No mundo corporativo é muito comum que funcionários dos mais variados níveis de hierarquia façam viagens de trabalho, atendendo a clientes em nome da empresa para a qual trabalham. Tais viagens geram diversos tipos de gastos como deslocamento, alimentação, hospedagem, entre outros. 
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
->
-> - No mundo corporativo é muito comum que funcionários dos mais variados níveis de hierarquia façam viagens de trabalho, atendendo a clientes em nome da empresa para a qual trabalham. Tais viagens geram diversos tipos de gastos como deslocamento, alimentação, hospedagem, entre outros. 
 De acordo com o artigo 2° da CLT, quando o trabalhador está viajando em nome da empresa, ela deve custear as despesas acarretadas pela viagem. Tais despesas podem ser pagas de três formas diferentes: diárias de viagem, adiantamento de despesas e reembolso de despesas. 
-As diárias de viagem geralmente são pagas antes do início da viagem ou em parcelas ao longo do período de deslocamento. O valor das diárias pode variar dependendo de diversos fatores, como o destino da viagem, a política da empresa, a duração da viagem e as despesas esperadas durante o período de estadia fora da sede. Ela não exige prestação de contas das despesas por parte do empregado, sendo de responsabilidade dele a administração do valor repassado pela empresa.
-No adiantamento de despesas, o funcionário recebe antecipadamente uma quantia para cobrir despesas relacionadas a uma viagem a trabalho. Esse adiantamento é concedido pela empresa para que o colaborador tenha fundos disponíveis para custear suas despesas e normalmente é calculado de maneira estimada, podendo ser maior ou menor do que os gastos que o trabalhador terá. Caso o valor seja estimado para mais, o colaborador deverá devolver o remanescente. Caso seja estimado para menos, um complemento deverá ser solicitado. Independente do caso, deve haver um processo de prestação de contas.
-Por fim, temos o reembolso de despesas. Neste caso, o funcionário paga por todas as despesas relacionadas à viagem e solicita à empresa o reembolso do valor. O pagamento é realizado mediante prestação de contas.
-O reembolso de despesas é uma prática comum, pois permite que os funcionários sejam reembolsados de forma justa pelos custos incorridos durante o desempenho de suas funções, ao mesmo tempo em que ajuda a manter um controle eficaz sobre os gastos corporativos.
-O problema é que não existe uma forma oficial para comprovação de gastos. Algumas empresas utilizam relatórios em planilhas, o que exige mui [continua]
 
+As diárias de viagem geralmente são pagas antes do início da viagem ou em parcelas ao longo do período de deslocamento. O valor das diárias pode variar dependendo de diversos fatores, como o destino da viagem, a política da empresa, a duração da viagem e as despesas esperadas durante o período de estadia fora da sede. Ela não exige prestação de contas das despesas por parte do empregado, sendo de responsabilidade dele a administração do valor repassado pela empresa.
+
+No adiantamento de despesas, o funcionário recebe antecipadamente uma quantia para cobrir despesas relacionadas a uma viagem a trabalho. Esse adiantamento é concedido pela empresa para que o colaborador tenha fundos disponíveis para custear suas despesas e normalmente é calculado de maneira estimada, podendo ser maior ou menor do que os gastos que o trabalhador terá. Caso o valor seja estimado para mais, o colaborador deverá devolver o remanescente. Caso seja estimado para menos, um complemento deverá ser solicitado. Independente do caso, deve haver um processo de prestação de contas.
+
+Por fim, temos o reembolso de despesas. Neste caso, o funcionário paga por todas as despesas relacionadas à viagem e solicita à empresa o reembolso do valor. O pagamento é realizado mediante prestação de contas.
+
+O reembolso de despesas é uma prática comum, pois permite que os funcionários sejam reembolsados de forma justa pelos custos incorridos durante o desempenho de suas funções, ao mesmo tempo em que ajuda a manter um controle eficaz sobre os gastos corporativos.
+
+Porém, infelizmente, não existe uma forma oficial para comprovação de gastos e prestação de contas. Algumas empresas utilizam relatórios em planilhas, o que pode trazer diversos problemas, tais como:
+
+Erros e Omissões: Funcionários podem cometer erros ao registrar despesas ou podem omitir informações importantes, resultando em relatórios imprecisos.
+
+Fraude e Abuso: Em alguns casos, funcionários podem deliberadamente inflar despesas ou incluir despesas não relacionadas ao trabalho para obter reembolsos injustificados.
+
+Conformidade e Auditoria: Relatórios de despesas mal preenchidos podem levar a problemas de conformidade com políticas internas da empresa ou regulamentações externas. Isso pode resultar em auditorias e potenciais penalidades.
+
+Aprovação Atrasada: Se os relatórios não forem preenchidos corretamente ou faltarem informações, pode haver atrasos na aprovação e no reembolso das despesas, o que pode causar insatisfação entre os funcionários.
+
+Falta de Padronização: Sem diretrizes claras e padronizadas para preenchimento de relatórios de despesas, pode haver inconsistências nos formatos e nas informações fornecidas, dificultando a análise e o gerenciamento eficazes.
+
+Despesas não Autorizadas: Funcionários podem inadvertidamente ou intencionalmente solicitar reembolsos por despesas não autorizadas pela empresa, como itens de luxo ou entretenimento pessoal.
+
+Dificuldades de Rastreamento: Sem um sistema eficiente de rastreamento de despesas, pode ser difícil para os departamentos financeiros ou gerentes monitorar gastos e identificar padrões de despesas.
+
+Custos Administrativos: O processamento manual de relatórios de despesas pode ser demorado e custoso em termos de recursos humanos e financeiros, especialmente para empresas com muitos funcionários que viajam com frequência.
+
+Desta forma, é natural que, para mitigar esses problemas, as empresas procurem soluções de software de gestão de despesas que automatizam o processo, forneçam diretrizes claras aos funcionários e facilitem a auditoria e o monitoramento das despesas.
 
 ## Objetivos - Cristiano Cardoso
 
