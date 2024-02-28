@@ -37,13 +37,13 @@ Desta forma, é natural que, para mitigar esses problemas, as empresas procurem 
 
 ## Objetivos - Cristiano Cardoso
 
-O objetivo geral do aplicativo é dar mais agilidade, transparência e notação assertiva de gastos provenientes das viagens corporativas, facilitando o controle tanto por parte do empregador (a) quanto do colaborador (a).
+O objetivo é desenvolver uma aplicação que possa dar mais agilidade, transparência e notação assertiva de gastos provenientes das viagens corporativas, facilitando o controle tanto por parte do empregador (a) quanto do colaborador (a).
 
 Como objetivos específicos para o projeto temos:
 
 - Proporcionar às organizações um acompanhamento dos recursos aplicados em viagens corporativas;
 - Fazer otimizações na aplicação desses recursos, podendo gerar economia na organização e ganho de agilidade nos processos e projetos em andamento, mediante análise de roteiros e deslocamento de pessoal; 
-- Gerar um recurso confiável e prático aos colaboradores para apontamento e verificação disponibilidade financeira durante viagens, facilitando a prestação de contas;
+- Gerar um recurso confiável e prático aos colaboradores para apontamento e verificação da disponibilidade financeira durante viagens, facilitando a prestação de contas;
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
