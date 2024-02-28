@@ -37,9 +37,13 @@ Desta forma, é natural que, para mitigar esses problemas, as empresas procurem 
 
 ## Objetivos - Cristiano Cardoso
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral do aplicativo é dar mais transparência ao acompanhamento e notação de gastos provenientes viagens corporativas, facilitando o controle tanto por parte do empregador (a) quanto do empregado.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Como objetivos específicos para o projeto temos:
+
+- Proporcionar às organizações um acompanhamento dos recursos aplicados em viagens corporativas;
+- Fazer otimizações na aplicação desses recursos, podendo gerar economia na organização, mediante análise de roteiros e desolocamento de pessoal; 
+- Gerar um recurso confiável e prático aos colaboradores para apontamento e disponibilidade financeira durante uma viagem, facilitando a prestação de contas;
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
