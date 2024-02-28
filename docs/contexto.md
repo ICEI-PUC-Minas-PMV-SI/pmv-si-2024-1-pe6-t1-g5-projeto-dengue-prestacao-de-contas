@@ -56,9 +56,7 @@ Como objetivos específicos para o projeto temos:
  
  Sendo assim, a implementação de políticas claras e transparentes quanto ao custeio de despesas de viagens corporativas não apenas atende às exigências legais, mas também promove a eficiência operacional, o equilíbrio financeiro e a responsabilidade dos colaboradores, elementos essenciais para o sucesso e a integridade das operações empresariais.
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Cedeño, Karina.Gastos e volume de viagens corporativas aumentarão neste ano, diz GBTA. Jornal Panrotas Corporativo, cidade de publicação, 31, 01 e 2024. Disponível em: https://www.panrotas.com.br/viagens-corporativas/pesquisas-e-estatisticas/2024/01/gastos-e-volume-de-viagens-corporativas-aumentarao-neste-ano-diz-gbta_202792.html. Acesso em: 26, 04 de 2024.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
