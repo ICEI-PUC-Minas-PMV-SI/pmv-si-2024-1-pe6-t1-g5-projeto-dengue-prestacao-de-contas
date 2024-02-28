@@ -42,7 +42,7 @@ O objetivo geral do aplicativo é dar mais transparência ao acompanhamento e no
 Como objetivos específicos para o projeto temos:
 
 - Proporcionar às organizações um acompanhamento dos recursos aplicados em viagens corporativas;
-- Fazer otimizações na aplicação desses recursos, podendo gerar economia na organização, mediante análise de roteiros e desolocamento de pessoal; 
+- Fazer otimizações na aplicação desses recursos, podendo gerar economia na organização e ganho de agilidade nos processos, mediante análise de roteiros e deslocamento de pessoal; 
 - Gerar um recurso confiável e prático aos colaboradores para apontamento e disponibilidade financeira durante uma viagem, facilitando a prestação de contas;
  
 > **Links Úteis**:
