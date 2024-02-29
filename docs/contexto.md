@@ -56,7 +56,7 @@ Como objetivos específicos para o projeto temos:
  
  Sendo assim, a implementação de políticas claras e transparentes quanto ao custeio de despesas de viagens corporativas não apenas atende às exigências legais, mas também promove a eficiência operacional, o equilíbrio financeiro e a responsabilidade dos colaboradores, elementos essenciais para o sucesso e a integridade das operações empresariais.
 
-Cedeño, Karina.Gastos e volume de viagens corporativas aumentarão neste ano, diz GBTA. Jornal Panrotas Corporativo, cidade de publicação, 31, 01 e 2024. Disponível em: https://www.panrotas.com.br/viagens-corporativas/pesquisas-e-estatisticas/2024/01/gastos-e-volume-de-viagens-corporativas-aumentarao-neste-ano-diz-gbta_202792.html. Acesso em: 26, 04 de 2024.
+Cedeño, Karina.Gastos e volume de viagens corporativas aumentarão neste ano, diz GBTA. Jornal Panrotas Corporativo, cidade de publicação, 31, 01 e 2024. Disponível em: https://www.panrotas.com.br/viagens-corporativas/pesquisas-e-estatisticas/2024/01/gastos-e-volume-de-viagens-corporativas-aumentarao-neste-ano-diz-gbta_202792.html. Acesso em: 26, abril de 2024.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
@@ -88,7 +88,7 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
-## Personas - Depois
+## Personas - Matheus
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
@@ -104,7 +104,7 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 >
 Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
-## Histórias de Usuários
+## Histórias de Usuários - Cristiano
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
@@ -126,14 +126,14 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
 
-### Requisitos Funcionais
+### Requisitos Funcionais - Lucas
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
 
-### Requisitos não Funcionais
+### Requisitos não Funcionais -Marcus
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
@@ -155,7 +155,7 @@ Lembre-se que cada requisito deve corresponder à uma e somente uma
 característica alvo da sua solução. Além disso, certifique-se de que
 todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
-## Restrições
+## Restrições - Mateus
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
@@ -170,7 +170,7 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
 > - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
-# Catálogo de Serviços
+# Catálogo de Serviços - Depois
 
 Descreva aqui todos os serviços que serão disponibilizados pelo seu projeto, detalhando suas características e funcionalidades.
 
