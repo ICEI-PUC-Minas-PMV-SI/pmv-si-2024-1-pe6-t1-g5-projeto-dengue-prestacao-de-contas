@@ -45,8 +45,6 @@ Como objetivos específicos para o projeto temos:
 - Fazer otimizações na aplicação desses recursos, podendo gerar economia na organização e ganho de agilidade nos processos e projetos em andamento, mediante análise de roteiros e deslocamento de pessoal; 
 - Gerar um recurso confiável e prático aos colaboradores para apontamento e verificação da disponibilidade financeira durante viagens, facilitando a prestação de contas;
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa - Mateus Soares
 
@@ -58,8 +56,6 @@ Como objetivos específicos para o projeto temos:
 
 Cedeño, Karina.Gastos e volume de viagens corporativas aumentarão neste ano, diz GBTA. Jornal Panrotas Corporativo, cidade de publicação, 31, 01 e 2024. Disponível em: https://www.panrotas.com.br/viagens-corporativas/pesquisas-e-estatisticas/2024/01/gastos-e-volume-de-viagens-corporativas-aumentarao-neste-ano-diz-gbta_202792.html. Acesso em: 26, abril de 2024.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo - Marcus Vinicius
 
@@ -72,9 +68,6 @@ Seguem algumas ocasiões em que o aplicativo pode se implementado para as justif
 * Consumo de combustível;
 * Notas fiscais.
 
-
-
-A solução também será útil para a liderança, pois a partir do programa, eles conseguirão controlar os gastos dos seus funcionários e evitar fraudes dos seus colaboradores.
 
 
 
