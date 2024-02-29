@@ -130,8 +130,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-001| A aplicação deve funcionar em computadores e em dispositivos móveis | Alta | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| Será possível a interação do usuário com os conteúdos disponíveis na página  |  ALTA | 
+|RNF-004| A aplicação deve ser fácil e simples de se utilizar |  ALTA | 
+|RNF-005| A aplicação das páginas Web deverão ter o tamanho de até 200Kbs|  ALTA | 
+|RNF-006| A aplicação Mobile deverá funcionar nos sistemas Android e IOS|  MÉDIA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
