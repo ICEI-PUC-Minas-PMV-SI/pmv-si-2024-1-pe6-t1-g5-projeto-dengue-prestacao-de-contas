@@ -85,6 +85,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Marcos Silva, possui 30 anos de idade, é um consultor de software que trabalha em uma empresa multinacional há aproximadamente 10 anos. Em sua rotina profissional, Marcos faz constantes viagens dentro e fora do Brasil, sendo deslocado frequentemente de forma urgente para diversos tipos de clientes. A empresa oferece soluções em tecnologia da informação. Todo o gasto com deslocamento, alimentação, hospedagem e demais despesas é desembolsado primeiramente por ele. Posteriormente, precisa apresentar tais despesas à empresa que presta serviços para que ela possa reembolsar o dinheiro aplicado durante a estadia nos clientes. Marcos necessita de um software prático, eficiente e seguro para registrar e manter o controle financeiro em relação aos gastos que ocorrem em suas viagens, podendo assim apresentar de forma prática as informações contábeis que a empresa necessita.
 
+Ana Oliveira, possui 35 anos de idade, sua profissão é Engenheira de Projetos. Sendo assim, Trabalha como engenheira em uma empresa nacional há 12 anos.
+Ela desloca-se regularmente para diferentes estados para liderar projetos de engenharia. Sua presença em locais variados é essencial para coordenar equipes e garantir o sucesso dos projetos. A empresa em que trabalha é especializada em desenvolvimento de soluções inovadoras em engenharia. Todos os custos relacionados a viagens, incluindo deslocamento, alimentação, hospedagem e outras despesas, são inicialmente cobertos por Ana, que, posteriormente, precisa apresentar essas despesas para reembolso pela empresa.
+
+Assim como Marcos, Ana necessita de um software eficiente para registrar e controlar os gastos relacionados às suas viagens. Um sistema prático e seguro seria crucial para simplificar o processo de registro e permitir uma apresentação clara das informações contábeis necessárias para o reembolso pela empresa. 
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
