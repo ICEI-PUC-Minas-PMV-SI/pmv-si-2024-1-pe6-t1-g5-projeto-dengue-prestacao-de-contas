@@ -163,7 +163,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
+|01| O projeto deverá ser entregue até o final do semestre. |
 |02| O software deve ser compatível com as versões mais recentes dos sistemas sistemas Android e IOS.       |
 |03| O sistema deve ser acessível por dispositivos móveis, todavia garantindo uma experiência de usuário consistente em diferentes tamanhos de tela. |
 |04| A equipe de desenvolvimento não terá um orçamento para a implementação do projeto.        |
