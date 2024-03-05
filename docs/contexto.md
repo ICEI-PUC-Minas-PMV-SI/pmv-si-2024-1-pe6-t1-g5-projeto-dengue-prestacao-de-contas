@@ -140,7 +140,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003| Será possível a interação do usuário com os conteúdos disponíveis na página  |  ALTA | 
 |RNF-004| A aplicação deve ser fácil e simples de se utilizar |  ALTA | 
 |RNF-005| A aplicação das páginas Web deverão ter o tamanho de até 200Kbs|  ALTA | 
-|RNF-006| A aplicação Mobile deverá funcionar nos sistemas Android e IOS|  MÉDIA | 
+|RNF-006| A aplicação Mobile deve funcionar nos sistemas Android e IOS|  MÉDIA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
