@@ -83,12 +83,14 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas - Mateus
 
-Marcos Silva, possui 30 anos de idade, é um consultor de software que trabalha em uma empresa multinacional há aproximadamente 10 anos. Em sua rotina profissional, Marcos faz constantes viagens dentro e fora do Brasil, sendo deslocado frequentemente de forma urgente para diversos tipos de clientes. A empresa oferece soluções em tecnologia da informação. Todo o gasto com deslocamento, alimentação, hospedagem e demais despesas é desembolsado primeiramente por ele. Posteriormente, precisa apresentar tais despesas à empresa que presta serviços para que ela possa reembolsar o dinheiro aplicado durante a estadia nos clientes. Marcos necessita de um software prático, eficiente e seguro para registrar e manter o controle financeiro em relação aos gastos que ocorrem em suas viagens, podendo assim apresentar de forma prática as informações contábeis que a empresa necessita.
+Marcos Silva, possui 30 anos de idade, é um consultor de software que trabalha em uma empresa multinacional há aproximadamente 10 anos. Em sua rotina profissional, Marcos faz constantes viagens dentro e fora do Brasil, sendo deslocado frequentemente de forma urgente para diversos tipos de clientes. A empresa oferece soluções em tecnologia da informação. Todo o gasto com deslocamento, alimentação, hospedagem e demais despesas é desembolsado primeiramente por ele. Posteriormente, precisa apresentar tais despesas à empresa que presta serviços para que ela possa reembolsar o dinheiro aplicado durante a estadia nos clientes. Marcos necessita de uma aplicação prática, eficiente e seguro para registrar e manter o controle financeiro em relação aos gastos que ocorrem em suas viagens, podendo assim apresentar de forma prática as informações das despesas que a empresa necessita para reembolso.
 
-Ana Oliveira, possui 35 anos de idade, sua profissão é Engenheira de Projetos. Sendo assim, Trabalha como engenheira em uma empresa nacional há 12 anos.
+Ana Oliveira, possui 35 anos de idade, sua profissão é Engenheira de Projetos. Sendo assim, trabalha como engenheira em uma empresa nacional há 12 anos.
 Ela desloca-se regularmente para diferentes estados para liderar projetos de engenharia. Sua presença em locais variados é essencial para coordenar equipes e garantir o sucesso dos projetos. A empresa em que trabalha é especializada em desenvolvimento de soluções inovadoras em engenharia. Todos os custos relacionados a viagens, incluindo deslocamento, alimentação, hospedagem e outras despesas, são inicialmente cobertos por Ana, que, posteriormente, precisa apresentar essas despesas para reembolso pela empresa.
 
 Assim como Marcos, Ana necessita de um software eficiente para registrar e controlar os gastos relacionados às suas viagens. Um sistema prático e seguro seria crucial para simplificar o processo de registro e permitir uma apresentação clara das informações contábeis necessárias para o reembolso pela empresa. 
+
+# João Alves, possui 43 anos de idade, sua profissão é Contador. Trabalha como Gestor de Custos numa empresa de auditoria há 8 anos. Em sua rotina de trabalho ele recebe diversos dados dos colaboradores para realizar os devidos lançamentos contábeis de entrada e saída de recursos, entre eles despesas de viagens realizadas por colaboradores desta organização, e uma das dificuldades é o controle e correção de inconsistências vistas na gestão desses recursos, podendo gerar gastos extras e dificultar inclusive reembolsos quando necessário.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
@@ -105,11 +107,13 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 ## Histórias de Usuários - Cristiano
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+ 
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                | PARA ... `MOTIVO/VALOR`                                                                                                                    |
+|--------------------|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Marcos Silva        | Apontar despesas das viagens de maneira ágil      | Facilitar acompanhamento das despesas de viagem e agilizar reembolso por parte da organização.                                             |
+|Ana Oliveira        | Relatar depesas de viagens maneira segura         | Evitar questionamentos e justificar de forma assertiva suas despesas para a empresa.                                                       |
+|João Alves          | Acompanhar depesas de viagens dos colaboradores   | Gerenciar despesas de viagens, de forma mais ágil e segura, analisando inclusive se os gastos são justificáveis aplicados nessa atividade; |
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
