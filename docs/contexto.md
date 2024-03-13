@@ -90,7 +90,7 @@ Ela desloca-se regularmente para diferentes estados para liderar projetos de eng
 
 Assim como Marcos, Ana necessita de um software eficiente para registrar e controlar os gastos relacionados às suas viagens. Um sistema prático e seguro seria crucial para simplificar o processo de registro e permitir uma apresentação clara das informações contábeis necessárias para o reembolso pela empresa. 
 
-# João Alves, possui 43 anos de idade, sua profissão é Contador. Trabalha como Gestor de Custos numa empresa de auditoria há 8 anos. Em sua rotina de trabalho ele recebe diversos dados dos colaboradores para realizar os devidos lançamentos contábeis de entrada e saída de recursos, entre eles despesas de viagens realizadas por colaboradores desta organização, e uma das dificuldades é o controle e correção de inconsistências vistas na gestão desses recursos, podendo gerar gastos extras e dificultar inclusive reembolsos quando necessário.
+João Alves, possui 43 anos de idade, sua profissão é Contador. Trabalha como Gestor de Custos numa empresa de auditoria há 8 anos. Em sua rotina de trabalho ele recebe diversos dados dos colaboradores para realizar os devidos lançamentos contábeis de entrada e saída de recursos, entre eles despesas de viagens realizadas por colaboradores desta organização, e uma das dificuldades é o controle e correção de inconsistências vistas na gestão desses recursos, podendo gerar gastos extras e dificultar inclusive reembolsos quando necessário.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
