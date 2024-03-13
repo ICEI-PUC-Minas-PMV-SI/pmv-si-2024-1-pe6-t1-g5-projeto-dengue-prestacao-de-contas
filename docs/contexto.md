@@ -110,9 +110,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
  
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                | PARA ... `MOTIVO/VALOR`                                                                                                                    |
 |--------------------|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Marcos Silva        | Apontar despesas das viagens de maneira ágil      | Facilitar acompanhamento das despesas de viagem e agilizar reembolso por parte da organização.                                             |
-|Ana Oliveira        | Relatar depesas de viagens maneira segura         | Evitar questionamentos e justificar de forma assertiva suas despesas para a empresa.                                                       |
-|João Alves          | Acompanhar depesas de viagens dos colaboradores   | Gerenciar despesas de viagens, de forma mais ágil e segura, analisando inclusive se os gastos são justificáveis aplicados nessa atividade; |
+|Marcos Silva        | Apontar despesas das viagens de maneira ágil      | Facilitar acompanhamento das despesas de viagem e agilizar reembolso por parte da organização;                                             |
+|Ana Oliveira        | Relatar depesas de viagens maneira segura         | Evitar questionamentos e justificar de forma assertiva suas despesas para a empresa;                                                       |
+|João Alves          | Acompanhar depesas de viagens dos colaboradores   | Gerenciar despesas de viagens, de forma mais ágil e segura, analisando inclusive se os gastos são justificáveis aplicados nessa atividade. |
 
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
