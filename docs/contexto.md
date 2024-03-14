@@ -54,7 +54,7 @@ Como objetivos específicos para o projeto temos:
  
  Sendo assim, a implementação de políticas claras e transparentes quanto ao custeio de despesas de viagens corporativas não apenas atende às exigências legais, mas também promove a eficiência operacional, o equilíbrio financeiro e a responsabilidade dos colaboradores, elementos essenciais para o sucesso e a integridade das operações empresariais.
 
-Cedeño, Karina.Gastos e volume de viagens corporativas aumentarão neste ano, diz GBTA. Jornal Panrotas Corporativo, cidade de publicação, 31, 01 e 2024. Disponível em: https://www.panrotas.com.br/viagens-corporativas/pesquisas-e-estatisticas/2024/01/gastos-e-volume-de-viagens-corporativas-aumentarao-neste-ano-diz-gbta_202792.html. Acesso em: 26, abril de 2024.
+Fonte: Cedeño, Karina.Gastos e volume de viagens corporativas aumentarão neste ano, diz GBTA. Jornal Panrotas Corporativo, cidade de publicação, 31, 01 e 2024. Disponível em: https://www.panrotas.com.br/viagens-corporativas/pesquisas-e-estatisticas/2024/01/gastos-e-volume-de-viagens-corporativas-aumentarao-neste-ano-diz-gbta_202792.html. Acesso em: 26, abril de 2024.
 
 
 ## Público-Alvo - Marcus Vinicius
@@ -178,6 +178,35 @@ Definição de como o software é estruturado em termos dos componentes que faze
 ![Arquitetura da Solução](img/02-mob-arch.png)
 
 ## Tecnologias Utilizadas
+
+
+Na arquitetura Front-End, essas serão as tecnologias utilizadas:
+
+* HTML5;
+* CSS;
+* JavaScript.
+
+Na arquitetura Back-End, as tecnologias utilizadas serão: 
+
+* Python;
+* Bibliotecas Python;
+
+Para a API, as tecnologias utilizadas foram:
+
+* Python;
+* Bibliotecas Python;
+
+Dentro da Aplicação Mobile, nós usaremos as seguintes soluções:
+
+* React-Native;
+* Biblioteca de Design React-Native;
+* Expo;
+
+Nós utilizaremos a linguagem de programação React-Native pois esta é uma linguagem que podemos utilizar em ambientes IOS e Android. De acordo com o Portal Statista, esses sistemas operacionais são os mais utilizados no mundo.
+
+Fonte: ALMENARA, Igor. **Qual o sistema operacional de celular mais usado do mundo?**.2022. Disponível em:<https://canaltech.com.br/software/qual-o-sistema-operacional-de-celular-mais-usado-do-mundo-223862/> Acesso em: 14 mar. 2024.
+
+
 
 Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
 
