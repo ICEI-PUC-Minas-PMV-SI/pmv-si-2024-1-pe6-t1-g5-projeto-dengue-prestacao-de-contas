@@ -15,7 +15,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Lucas De Paula Martins
 * Mateus Soares Martins
 * Marcus Vinicius de Paula Nunes
-* Nome completo do aluno 6
 
 ## Orientador
 
