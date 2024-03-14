@@ -122,11 +122,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve funcionar em computadores e em dispositivos móveis | Alta | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| Será possível a interação do usuário com os conteúdos disponíveis na página  |  ALTA | 
-|RNF-004| A aplicação deve ser fácil e simples de se utilizar |  ALTA | 
-|RNF-005| A aplicação das páginas Web deverão ter o tamanho de até 200Kbs|  ALTA | 
-|RNF-006| A aplicação Mobile deve funcionar nos sistemas Android e IOS|  MÉDIA | 
+|RNF-002| A aplicação deve ser fácil e simples de se utilizar |  ALTA | 
+|RNF-003| A aplicação Mobile deve funcionar nos sistemas Android e IOS|  MÉDIA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -139,8 +136,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre. |
 |02| O software deve ser compatível com as versões mais recentes dos sistemas sistemas Android e IOS.       |
-|03| O sistema deve ser acessível por dispositivos móveis, todavia garantindo uma experiência de usuário consistente em diferentes tamanhos de tela. |
-|04| A equipe de desenvolvimento não terá um orçamento para a implementação do projeto.        |
+|03| A equipe de desenvolvimento não terá um orçamento para a implementação do projeto. |
+
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
