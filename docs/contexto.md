@@ -132,7 +132,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve funcionar em computadores e em dispositivos móveis | Alta | 
+|RNF-001| A aplicação deve funcionar em computadores e em dispositivos móveis | ALTA | 
 |RNF-002| A aplicação deve possuir boa usabilidae para o usuário |  ALTA | 
 |RNF-003| A aplicação Mobile deve funcionar nos sistemas Android e IOS|  MÉDIA | 
 |RNF-004| A aplicação Web precisa funcionar nos Sistemas Operacionais Linux, Windows e macOS|  MÉDIA | 
