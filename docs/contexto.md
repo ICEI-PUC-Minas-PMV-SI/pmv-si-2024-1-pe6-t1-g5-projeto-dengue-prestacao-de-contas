@@ -114,8 +114,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que os funcionários devem poder registrar diferentes tipos de despesas incorridas durante a viagem | ALTA | 
+|RF-002| Permitir que os funcionários capturem imagens ou façam upload de recibos e comprovantes de despesas para cada transação   | ALTA |
+|RF-003| Permitir que gerentes ou departamentos responsáveis aprovem ou rejeitem despesas submetidas pelos funcionários  | ALTA |
+|RF-004| Permitir que os funcionários adicionem notas ou comentários adicionais a cada despesa registrada, fornecendo contextos ou detalhes relevantes para facilitar a compreensão e aprovação por parte dos gestores  | ALTA |
+|RF-005| Permitir a implementação de políticas de despesas que automatizem a conformidade com as diretrizes da empresa, como limites de gastos por categoria ou regras específicas para aprovação   | MÉDIA |
+|RF-006| Gerar relatórios detalhados de despesas por funcionário, equipe ou período específico, exibindo informações como total gasto, categorias de despesas mais comuns, etc   | MÉDIA |
+|RF-007| Implementar backups regulares e sistemas de recuperação de dados para evitar a perda de informações importantes   | MÉDIA |
+|RF-008| Implementar medidas robustas de segurança e privacidade para proteger os dados sensíveis dos funcionários e da empresa durante todo o processo de prestação de contas   | MÉDIA |
+|RF-009| Possuir suporte para converter despesas em diferentes moedas para a moeda padrão da empresa, com taxas de câmbio atualizadas   | MÉDIA |
+|RF-010| Enviar notificações e lembretes automáticos para funcionários sobre despesas pendentes ou prazos de prestação de contas   | MÉDIA |
+|RF-011| Processar automaticamente o reembolso das despesas aprovadas para os funcionários, integrando-se ao sistema de folha de pagamento ou realizando transferências diretas para as contas bancárias designadas   | BAIXA |
+|RF-012| Categorizar automaticamente as despesas com base nas informações fornecidas ou por meio de reconhecimento de texto em comprovantes   | BAIXA |
+
 
 ### Requisitos não Funcionais -Marcus
 
