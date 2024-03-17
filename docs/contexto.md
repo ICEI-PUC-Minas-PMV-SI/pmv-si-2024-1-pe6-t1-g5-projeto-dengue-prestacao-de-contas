@@ -198,7 +198,7 @@ Processo de Comunicação entre os componentes:
 
 ## Tecnologias Utilizadas
 
-**Importante:** Parcial, as escolhas podem sofrer possíveis alterações com o decorrer do projeto
+**Importante:** As escolhas podem sofrer possíveis alterações com o decorrer do projeto
 
 IDE's de desenvolvimento:
 
