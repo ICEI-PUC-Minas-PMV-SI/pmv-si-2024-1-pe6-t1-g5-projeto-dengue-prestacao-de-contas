@@ -187,9 +187,14 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 
 # Arquitetura da Solução
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/90010232/064b4e09-0618-4c8b-a8c5-bee12783588d)
 
-![Arquitetura da Solução](img/02-mob-arch.png)
+Processo de Comunicação entre os componentes:
+
+ * O front end faz requisições HTTP ao back end para solicitar dados ou realizar operações.
+ * O back end consome a API externa para obter dados adicionais, processa esses dados e os armazena no banco de dados.
+ * O back end também fornece endpoints para o front end acessar os dados armazenados no banco de dados.
+ * O frontend exibe os dados aos usuários e permite que eles interajam com a aplicação.
 
 ## Tecnologias Utilizadas
 
@@ -203,12 +208,14 @@ Na arquitetura Front-End, essas serão as tecnologias utilizadas:
 Na arquitetura Back-End, as tecnologias utilizadas serão: 
 
 * Python;
-* Bibliotecas Python;
 
 Para a API, as tecnologias utilizadas foram:
 
 * Python;
-* Bibliotecas Python;
+
+Banco de dados:
+
+* MySQL
 
 Dentro da Aplicação Mobile, nós usaremos as seguintes soluções:
 
