@@ -147,7 +147,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 Lista de Serviços mapeados para um MVP:
 
 * Cadastro de usuários
-* Edição de dados
+* Edição de dados pessoais
 * Cadastro de Notas Fiscais
 * Histórico das Notas Fiscais cadastradas
 * Atualização de dados nas Notas Fiscais Cadastradas
