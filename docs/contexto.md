@@ -199,14 +199,17 @@ Processo de Comunicação entre os componentes:
 
 IDE's de desenvolvimento:
 
-* Visual Studio Code
+* Visual Studio Code;
+* Expo.
+
+Será utilizado o Expo para o desenvolvimento da aplicação móvel, pois esta é uma solução que funciona via Web e não requer uma máquina com grande poder de processamento.
 
 Na arquitetura Front-End, essas serão as tecnologias utilizadas:
 
 * HTML5;
 * CSS;
 * JavaScript;
-* BootStrap5 (incerteza)
+* BootStrap5 (incerteza).
 
 Na arquitetura Back-End, as tecnologias utilizadas serão: 
 
@@ -216,30 +219,23 @@ Na arquitetura Back-End, as tecnologias utilizadas serão:
 Para a API, as tecnologias utilizadas foram:
 
 * Python;
-* Lib: **reportlab**, usada para a criação de arquivos PDF a partir de uma imagem.
+* Lib: **reportlab**, usada para a criação de arquivos PDF a partir de uma imagem;
 * SQL.
 
 Banco de dados:
 
-* MySQL
+* MySQL.
 
 Dentro da Aplicação Mobile, nós usaremos as seguintes soluções:
 
 * React-Native;
-* Biblioteca de Design React-Native;
-* Expo;
+* Biblioteca de Design React Native Paper.
 
-Nós utilizaremos a linguagem de programação React-Native pois esta é uma linguagem que podemos utilizar em ambientes IOS e Android. De acordo com o Portal Statista, esses sistemas operacionais são os mais utilizados no mundo.
+
+Nós utilizaremos a linguagem de programação React-Native, pois esta é uma linguagem que podemos utilizar em ambientes IOS e Android. Conforme o Portal Statista, esses sistemas operacionais são os mais utilizados no mundo.
 
 Fonte: ALMENARA, Igor. **Qual o sistema operacional de celular mais usado do mundo?**. 2022. Disponível em: <https://canaltech.com.br/software/qual-o-sistema-operacional-de-celular-mais-usado-do-mundo-223862/> Acesso em: 14 mar. 2024.
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+Em primeiro momento, os cooperantes do projeto hospedarão o projeto de forma local, e assim que a aplicação estiver funcional, será escolhido um serviço para manter o projeto  ativo, como por exemplo o Heroku ou Hostinger.
