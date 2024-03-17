@@ -1,6 +1,6 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O projeto atual, denominado Travel Payback, tem como objetivo principal mitigar as dificuldades enfrentadas pelos colaboradores que viajam e precisam apresentar notas fiscais para reembolso de despesas de viagem. Atualmente, este processo é manual e demorado, pois os colaboradores precisam guardar todas as notas fiscais e informações adicionais para apresentá-las às lideranças após o retorno, iniciando assim um longo processo de negócios para efetuar o reembolso. Com isso, pretendemos disponibilizar aos colaboradores um sistema onde eles possam realizar o processo de apresentação de notas fiscais remotamente, proporcionando maior agilidade em todo o processo.
 
 ## Problema - Lucas Bretas
 No mundo corporativo é muito comum que funcionários dos mais variados níveis de hierarquia façam viagens de trabalho, atendendo a clientes em nome da empresa para a qual trabalham. Tais viagens geram diversos tipos de gastos como deslocamento, alimentação, hospedagem, entre outros. 
@@ -68,19 +68,12 @@ Seguem algumas ocasiões em que o aplicativo pode se implementado para as justif
 * Consumo de combustível;
 * Notas fiscais.
 
-
-
-
-
-
-
-
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+O projeto visa mitigar as dificuldades dos colaboradores que viajam e necessitam apresentar notas fiscais para reembolso de despesas de viagem. Com esse objetivo em mente, nos propomos a desenvolver uma solução **_web_** e **_mobile_** que inclua um backend para realizar chamadas de API e executar consultas ao banco de dados para coletar informações.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
+Além disso, também será apresentada uma interface onde os gestores poderão acompanhar tanto as porcentagens de erros quanto de sucesso da aplicação, bem como os dados dos próprios colaboradores.
+ 
 ## Personas - Mateus
 
 Marcos Silva, possui 30 anos de idade, é um consultor de software que trabalha em uma empresa multinacional há aproximadamente 10 anos. Em sua rotina profissional, Marcos faz constantes viagens dentro e fora do Brasil, sendo deslocado frequentemente de forma urgente para diversos tipos de clientes. A empresa oferece soluções em tecnologia da informação. Todo o gasto com deslocamento, alimentação, hospedagem e demais despesas é desembolsado primeiramente por ele. Posteriormente, precisa apresentar tais despesas à empresa que presta serviços para que ela possa reembolsar o dinheiro aplicado durante a estadia nos clientes. Marcos necessita de uma aplicação prática, eficiente e seguro para registrar e manter o controle financeiro em relação aos gastos que ocorrem em suas viagens, podendo assim apresentar de forma prática as informações das despesas que a empresa necessita para reembolso.
@@ -97,14 +90,16 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 
 ## Histórias de Usuários - Cristiano
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base nas necessidades dos usuários para com o produto identificamos as seguintes histórias:
  
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                | PARA ... `MOTIVO/VALOR`                                                                                                                    |
-|--------------------|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Marcos Silva        | Apontar despesas das viagens de maneira ágil      | Facilitar acompanhamento das despesas de viagem e agilizar reembolso por parte da organização;                                             |
-|Ana Oliveira        | Relatar depesas de viagens maneira segura         | Evitar questionamentos e justificar de forma assertiva suas despesas para a empresa;                                                       |
-|João Alves          | Acompanhar depesas de viagens dos colaboradores   | Gerenciar despesas de viagens, de forma mais ágil e segura, analisando inclusive se os gastos são justificáveis aplicados nessa atividade. |
-
+| COMO | DESEJO | PARA |
+| --------|-----------|--------|
+|Colaborador | Realizar meu cadastro no sistema | Informar os gestores sobre gastos em viagens comerciais|   
+|Colaborador | Alterar meus dados cadastrados | Não haver conflito com os gestores|
+|Colaborador | Apontar gastos de viagens comerciais | Receber o reembolso dos gastos da viagem|
+|Colaborador | Visualizar as notas fiscais que já cadastrei | Conferir valores|
+|Colaborador | Alterar o conteúdo de um cadastro de nota fiscal | Informar o real valor|
+|Gestor| Ter um visão dos dados cadastrados na aplicação | Melhor gerir a equipe|
 
 ## Requisitos
 
@@ -157,10 +152,18 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
 > - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
-# Catálogo de Serviços - Depois
+# Catálogo de Serviços
 
-Descreva aqui todos os serviços que serão disponibilizados pelo seu projeto, detalhando suas características e funcionalidades.
+Lista de Serviços mapeados para um MVP:
 
+* Cadastro de usuários
+* Edição de dados
+* Cadastro de Notas Fiscais
+* Histórico das Notas Fiscais cadastradas
+* Atualização de dados nas Notas Fiscais Cadastradas
+* Visão de Dados para o StakeHolder (Incerteza)
+
+**Importante lembrar que esse é um levantamento inicial, podendo sofrer alterações.**
 
 # Gerenciamento de Projeto
 
@@ -187,7 +190,7 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 
 ![Simple Project Timeline](img/02-project-timeline.png)
 
-# Arquitetura da Solução - Lucas de Paula
+# Arquitetura da Solução
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/90010232/ae292127-7318-4d69-8beb-68d7d961ee3f)
 
