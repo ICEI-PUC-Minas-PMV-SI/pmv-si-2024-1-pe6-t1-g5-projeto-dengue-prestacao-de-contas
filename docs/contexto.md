@@ -123,7 +123,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-012| Categorizar automaticamente as despesas com base nas informações fornecidas ou por meio de reconhecimento de texto em comprovantes   | BAIXA |
 
 
-### Requisitos não Funcionais -Marcus
+### Requisitos não Funcionais - Marcus
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
@@ -131,9 +131,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| A aplicação deve possuir boa usabilidae para o usuário |  ALTA | 
 |RNF-003| A aplicação Mobile deve funcionar nos sistemas Android e IOS|  MÉDIA | 
 |RNF-004| A aplicação Web precisa funcionar nos Sistemas Operacionais Linux, Windows e macOS|  MÉDIA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
 
 ## Restrições - Mateus
 
@@ -144,13 +141,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre. |
 |02| O software deve ser compatível com as versões mais recentes dos sistemas sistemas Android e IOS.       |
 |03| A equipe de desenvolvimento não terá um orçamento para a implementação do projeto. |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 # Catálogo de Serviços
 
