@@ -1,4 +1,4 @@
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/90010232/e1862247-731c-451c-9596-5569887598a7)# Introdução
+Introdução
 
 O projeto atual, denominado Travel Payback, tem como objetivo principal mitigar as dificuldades enfrentadas pelos colaboradores que viajam e precisam apresentar notas fiscais para reembolso de despesas de viagem. Atualmente, este processo é manual e demorado, pois os colaboradores precisam guardar todas as notas fiscais e informações adicionais para apresentá-las às lideranças após o retorno, iniciando assim um longo processo de negócios para efetuar o reembolso. Com isso, pretendemos disponibilizar aos colaboradores um sistema onde eles possam realizar o processo de apresentação de notas fiscais remotamente, proporcionando maior agilidade em todo o processo.
 
@@ -176,7 +176,9 @@ https://sgapucminasbr-my.sharepoint.com/:x:/g/personal/1304979_sga_pucminas_br/E
 
 ## Gerenciamento de Equipe
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/90010232/1271f1a6-677b-4581-ae8d-de9c249790cd)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/90010232/8eea1b6c-6e2d-4f76-8eeb-27113c67067c)
+
+
 
 A partir da **2° etapa** cada integrante do grupo terá suas metas expecíficas que serão trackeadas a partir de nosso board.
 
