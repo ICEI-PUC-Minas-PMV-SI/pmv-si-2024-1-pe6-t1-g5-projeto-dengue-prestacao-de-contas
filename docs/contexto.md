@@ -1,4 +1,4 @@
-Introdução
+## Introdução
 
 O projeto atual, denominado Travel Payback, tem como objetivo principal mitigar as dificuldades enfrentadas pelos colaboradores que viajam e precisam apresentar notas fiscais para reembolso de despesas de viagem. Atualmente, este processo é manual e demorado, pois os colaboradores precisam guardar todas as notas fiscais e informações adicionais para apresentá-las às lideranças após o retorno, iniciando assim um longo processo de negócios para efetuar o reembolso. Com isso, pretendemos disponibilizar aos colaboradores um sistema onde eles possam realizar o processo de apresentação de notas fiscais remotamente, proporcionando maior agilidade em todo o processo.
 
