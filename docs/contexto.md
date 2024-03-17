@@ -185,9 +185,9 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 
 ![Simple Project Timeline](img/02-project-timeline.png)
 
-# Arquitetura da Solução
+# Arquitetura da Solução - Lucas de Paula
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/90010232/064b4e09-0618-4c8b-a8c5-bee12783588d)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/90010232/ae292127-7318-4d69-8beb-68d7d961ee3f)
 
 Processo de Comunicação entre os componentes:
 
@@ -198,20 +198,29 @@ Processo de Comunicação entre os componentes:
 
 ## Tecnologias Utilizadas
 
+**Importante:** Parcial, as escolhas podem sofrer possíveis alterações com o decorrer do projeto
+
+IDE's de desenvolvimento:
+
+* Visual Studio Code
 
 Na arquitetura Front-End, essas serão as tecnologias utilizadas:
 
 * HTML5;
 * CSS;
-* JavaScript.
+* JavaScript;
+* BootStrap5 (incerteza)
 
 Na arquitetura Back-End, as tecnologias utilizadas serão: 
 
 * Python;
+* SQL;
 
 Para a API, as tecnologias utilizadas foram:
 
 * Python;
+* Lib: **reportlab**, usada para a criação de arquivos PDF a partir de uma imagem.
+* SQL.
 
 Banco de dados:
 
@@ -226,12 +235,6 @@ Dentro da Aplicação Mobile, nós usaremos as seguintes soluções:
 Nós utilizaremos a linguagem de programação React-Native pois esta é uma linguagem que podemos utilizar em ambientes IOS e Android. De acordo com o Portal Statista, esses sistemas operacionais são os mais utilizados no mundo.
 
 Fonte: ALMENARA, Igor. **Qual o sistema operacional de celular mais usado do mundo?**. 2022. Disponível em: <https://canaltech.com.br/software/qual-o-sistema-operacional-de-celular-mais-usado-do-mundo-223862/> Acesso em: 14 mar. 2024.
-
-
-
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
 ## Hospedagem
 
