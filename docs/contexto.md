@@ -1,4 +1,4 @@
-# Introdução
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/90010232/e1862247-731c-451c-9596-5569887598a7)# Introdução
 
 O projeto atual, denominado Travel Payback, tem como objetivo principal mitigar as dificuldades enfrentadas pelos colaboradores que viajam e precisam apresentar notas fiscais para reembolso de despesas de viagem. Atualmente, este processo é manual e demorado, pois os colaboradores precisam guardar todas as notas fiscais e informações adicionais para apresentá-las às lideranças após o retorno, iniciando assim um longo processo de negócios para efetuar o reembolso. Com isso, pretendemos disponibilizar aos colaboradores um sistema onde eles possam realizar o processo de apresentação de notas fiscais remotamente, proporcionando maior agilidade em todo o processo.
 
@@ -163,7 +163,7 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 Este é o fluxograma com as tarefas necessárias para a realilação do projeto:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/90010232/79fe98cf-4eaa-4229-a32e-6d16a8c3cb94)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/90010232/bf3f1789-28fc-4382-bff6-f948f1ee881b)
 
 O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
@@ -176,9 +176,9 @@ https://sgapucminasbr-my.sharepoint.com/:x:/g/personal/1304979_sga_pucminas_br/E
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/90010232/1271f1a6-677b-4581-ae8d-de9c249790cd)
 
-![Simple Project Timeline](img/02-project-timeline.png)
+A partir da **2° etapa** cada integrante do grupo terá suas metas expecíficas que serão trackeadas a partir de nosso board.
 
 # Arquitetura da Solução
 
