@@ -176,7 +176,7 @@ O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utiliz
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/90010232/501997a6-6875-4fe0-a05c-8b77dd2b703b)
 
-**Planejamento superficial, com o início da 2° etapa iremos espandir essa visão para todos os serviços e telas que devem ser desenvolvidos para melhor acompanhamento.**
+**Planejamento superficial, com o início da 2° etapa iremos expandir essa visão para todos os serviços e telas que devem ser desenvolvidos para melhor acompanhamento.**
 
 Link para modelo Gantt do projeto: 
 https://sgapucminasbr-my.sharepoint.com/:x:/g/personal/1304979_sga_pucminas_br/EcvZ9hZfJYBKq7cgNpZf-TABWSopGeqml9pebIShaMpG7w?e=jL8Ok2
