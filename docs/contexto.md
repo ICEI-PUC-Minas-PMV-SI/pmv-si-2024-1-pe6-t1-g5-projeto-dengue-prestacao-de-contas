@@ -1,8 +1,8 @@
 ## Introdução
 
-O projeto atual, denominado Travel Payback, tem como objetivo principal mitigar as dificuldades enfrentadas pelos colaboradores que viajam e precisam apresentar notas fiscais para reembolso de despesas de viagem. Atualmente, este processo é manual e demorado, pois os colaboradores precisam guardar todas as notas fiscais e informações adicionais para apresentá-las às lideranças após o retorno, iniciando assim um longo processo de negócios para efetuar o reembolso. Com isso, pretendemos disponibilizar aos colaboradores um sistema onde eles possam realizar o processo de apresentação de notas fiscais remotamente, proporcionando maior agilidade em todo o processo.
+O projeto atual, denominado Travel Payback, tem como objetivo principal mitigar as dificuldades enfrentadas pelos colaboradores que viajam e precisam apresentar notas fiscais para reembolso de despesas de viagem. Atualmente, este processo é manual e demorado, pois os colaboradores precisam guardar todas as notas fiscais e informações adicionais para apresentá-las às lideranças após o retorno, iniciando assim um longo processo de negócios para efetuar o reembolso. Com isso, preten-se disponibilizar aos colaboradores um sistema onde eles possam realizar o processo de apresentação de notas fiscais remotamente, proporcionando maior agilidade em todo o processo e, aos gestores, uma forma mais ágil de conferir documentações de despesa e realizar aprovações de processos financeiros de reembolso.
 
-## Problema - Lucas Bretas
+## Problema
 No mundo corporativo é muito comum que funcionários dos mais variados níveis de hierarquia façam viagens de trabalho, atendendo a clientes em nome da empresa para a qual trabalham. Tais viagens geram diversos tipos de gastos como deslocamento, alimentação, hospedagem, entre outros. 
 
 De acordo com o artigo 2° da CLT, quando o trabalhador está viajando em nome da empresa, ela deve custear as despesas acarretadas pela viagem. Tais despesas podem ser pagas de três formas diferentes: diárias de viagem, adiantamento de despesas e reembolso de despesas. 
@@ -35,7 +35,7 @@ Custos Administrativos: O processamento manual de relatórios de despesas pode s
 
 Desta forma, é natural que, para mitigar esses problemas, as empresas procurem soluções de software de gestão de despesas que automatizam o processo, forneçam diretrizes claras aos funcionários e facilitem a auditoria e o monitoramento das despesas.
 
-## Objetivos - Cristiano Cardoso
+## Objetivos
 
 O objetivo é desenvolver uma aplicação que possa dar mais agilidade, transparência e notação assertiva de gastos provenientes das viagens corporativas, facilitando o controle tanto por parte do empregador (a) quanto do colaborador (a).
 
@@ -46,7 +46,7 @@ Como objetivos específicos para o projeto temos:
 - Gerar um recurso confiável e prático aos colaboradores para apontamento e verificação da disponibilidade financeira durante viagens, facilitando a prestação de contas;
  
 
-## Justificativa - Mateus Soares
+## Justificativa
 
  A prática de viagens de trabalho é uma realidade no ambiente corporativo, sendo essencial para o bom andamento dos negócios, especialmente quando se trata do atendimento a clientes e representação da empresa em diversos locais. Diante dessa necessidade, é crucial estabelecer políticas claras de custeio de despesas relacionadas a essas viagens realizadas pelos empregados. 
  
@@ -57,24 +57,26 @@ Como objetivos específicos para o projeto temos:
 Fonte: CEDEÑO, Karina. **Gastos e volume de viagens corporativas aumentarão neste ano, diz GBTA.**. 2024. Disponível em: https://www.panrotas.com.br/viagens-corporativas/pesquisas-e-estatisticas/2024/01/gastos-e-volume-de-viagens-corporativas-aumentarao-neste-ano-diz-gbta_202792.html. Acesso em: 26, abril de 2024.
 
 
-## Público-Alvo - Marcus Vinicius
+## Público-Alvo
 
-A solução de software desenvolvida pelo grupo tem como o objetivo de atingir os trabalhadores que possuem a necessidade de justificar os seus gastos para a organização.
+A solução de software desenvolvida tem como o objetivo de atingir os trabalhadores que possuem a necessidade de justificar os seus gastos para a organização, assim como os gestores que precisam aprovar o reebolso das despesas e o setor financeiro, que precisa analisar o resultado final pagar ao funcinário o valor a ser reembolsado.
 
 Seguem algumas ocasiões em que o aplicativo pode se implementado para as justificativas de gastos:
 
 * Hospedagem em hotéis;
 * Gasto com refeições;
 * Consumo de combustível;
-* Notas fiscais.
+* Compra de materias para consumo;
+* Passagens aéres e rodoviárias;
+* Aluguel de veículos.
 
 # Especificações do Projeto
 
-O projeto visa mitigar as dificuldades dos colaboradores que viajam e necessitam apresentar notas fiscais para reembolso de despesas de viagem. Com esse objetivo em mente, nos propomos a desenvolver uma solução **_web_** e **_mobile_** que inclua um backend para realizar chamadas de API e executar consultas ao banco de dados para coletar informações.
+O projeto visa mitigar as dificuldades dos colaboradores que viajam e necessitam apresentar notas fiscais para reembolso de despesas de viagem, assim como seus gestores imediatos e setor financeiro. Com esse objetivo em mente, foi proposto o desenvolvimento de uma solução **_web_** e **_mobile_** que inclua um backend para realizar chamadas de API e executar consultas ao banco de dados para coletar informações.
 
 Além disso, também será apresentada uma interface onde os gestores poderão acompanhar tanto as porcentagens de erros quanto de sucesso da aplicação, bem como os dados dos próprios colaboradores.
  
-## Personas - Mateus
+## Personas
 
 Marcos Silva, possui 30 anos de idade, é um consultor de software que trabalha em uma empresa multinacional há aproximadamente 10 anos. Em sua rotina profissional, Marcos faz constantes viagens dentro e fora do Brasil, sendo deslocado frequentemente de forma urgente para diversos tipos de clientes. A empresa oferece soluções em tecnologia da informação. Todo o gasto com deslocamento, alimentação, hospedagem e demais despesas é desembolsado primeiramente por ele. Posteriormente, precisa apresentar tais despesas à empresa que presta serviços para que ela possa reembolsar o dinheiro aplicado durante a estadia nos clientes. Marcos necessita de uma aplicação prática, eficiente e seguro para registrar e manter o controle financeiro em relação aos gastos que ocorrem em suas viagens, podendo assim apresentar de forma prática as informações das despesas que a empresa necessita para reembolso.
 
@@ -88,7 +90,7 @@ João Alves, possui 43 anos de idade, sua profissão é Contador. Trabalha como 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 
-## Histórias de Usuários - Cristiano
+## Histórias de Usuários
 
 Com base nas necessidades dos usuários para com o produto identificamos as seguintes histórias:
  
@@ -105,7 +107,7 @@ Com base nas necessidades dos usuários para com o produto identificamos as segu
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
 
-### Requisitos Funcionais - Lucas
+### Requisitos Funcionais 
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
@@ -123,7 +125,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-012| Categorizar automaticamente as despesas com base nas informações fornecidas ou por meio de reconhecimento de texto em comprovantes   | BAIXA |
 
 
-### Requisitos não Funcionais - Marcus
+### Requisitos não Funcionais 
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
@@ -132,7 +134,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003| A aplicação Mobile deve funcionar nos sistemas Android e IOS|  MÉDIA | 
 |RNF-004| A aplicação Web precisa funcionar nos Sistemas Operacionais Linux, Windows e macOS|  MÉDIA | 
 
-## Restrições - Mateus
+## Restrições 
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
@@ -238,4 +240,4 @@ Fonte: ALMENARA, Igor. **Qual o sistema operacional de celular mais usado do mun
 
 ## Hospedagem
 
-Em primeiro momento, os cooperantes do projeto hospedarão o projeto de forma local, e assim que a aplicação estiver funcional, será escolhido um serviço para manter o projeto  ativo, como por exemplo o Heroku ou Hostinger.
+Em primeiro momento, o projeto será hospedado de forma local, e assim que a aplicação estiver funcional, será escolhido um serviço para manter o projeto  ativo, como por exemplo o Heroku ou Hostinger.
