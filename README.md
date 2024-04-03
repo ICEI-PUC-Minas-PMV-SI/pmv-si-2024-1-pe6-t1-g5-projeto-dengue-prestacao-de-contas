@@ -6,7 +6,7 @@
 
 `SEMESTRE: 6º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O nosso projeto se chama Travel Payback e ele foi elaborado com o fundamento de auxiliar os funcionários que trabalham viajando a justificar os seus gastos para a organização a qual representam.
 
 ## Integrantes
 
