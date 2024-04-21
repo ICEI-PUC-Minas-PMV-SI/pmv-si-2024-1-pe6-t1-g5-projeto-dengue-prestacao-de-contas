@@ -101,7 +101,8 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
 
 ## Fluxo de Dados por End-Point
 
-1. **Cadastro de Usuário (POST /users/ - Cadastro de Usuário):**
+#Cadastro de Usuário
+1. **Requisição do usuário (POST /users/ - Cadastro de Usuário):**
    - Um cliente faz uma requisição POST para o endpoint `/users/` com os dados de um novo usuário no corpo da requisição.
    - Os dados são validados pelo modelo Pydantic `UserCreate` para garantir sua integridade.
 
@@ -117,8 +118,8 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
    - Após a inserção bem-sucedida, a API retorna os dados do novo usuário no formato JSON com os campos especificados no modelo `UserCreate`.
 
 ---
-
-1. **Consulta de usuários (GET /users/ - Listagem de Usuários):**
+#Consulta de usuário
+1. **Requisição do usuário (GET /users/ - Listagem de Usuários):**
    - Um cliente faz uma requisição GET para o endpoint `/users/` para obter a lista de todos os usuários cadastrados.
 
 2. **Conexão com o Banco de Dados:**
@@ -133,8 +134,8 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
    - Os dados dos usuários são retornados no formato JSON como uma lista de objetos `UserCreate`, contendo os detalhes de cada usuário.
 
 ---
-
-1. **Atualização de usuário por ID (PUT /users/{user_id} - Atualização de Usuário):**
+#Atualização de Usuário por ID
+1. **Requisição do usuário (PUT /users/{user_id} - Atualização de Usuário):**
    - Um cliente faz uma requisição PUT para o endpoint `/users/{user_id}` para atualizar as informações de um usuário existente identificado pelo `{user_id}`.
 
 2. **Conexão com o Banco de Dados:**
@@ -153,8 +154,8 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
    - Após a atualização bem-sucedida, a API retorna os dados atualizados do usuário no formato JSON com os campos especificados no modelo `UserCreate`.
 
 ---
-
-1. **Adição de Imagem por ID (POST /users/{user_id}/photo - Upload de Foto):**
+#Adição de Imagem por ID
+1. **Requisição do usuário (POST /users/{user_id}/photo - Upload de Foto):**
    - Um cliente faz uma requisição POST para o endpoint `/users/{user_id}/photo` para fazer o upload de uma foto para um usuário específico identificado pelo `{user_id}`.
    - A foto é enviada no corpo da requisição como parte de um objeto `UploadFile`.
 
@@ -174,8 +175,8 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
    - Após o armazenamento bem-sucedido da foto no banco de dados, a API retorna uma resposta HTTP com uma mensagem de sucesso.
 
 ---
-
-1. **Consulta de Imagens por ID (GET /users/{user_id}/photo - Recuperação de Foto):**
+#Consulta de Imagem por ID
+1. **Requisição do usuário(GET /users/{user_id}/photo - Recuperação de Foto):**
    - Um cliente faz uma requisição GET para o endpoint `/users/{user_id}/photo` para recuperar a foto de um usuário específico identificado pelo `{user_id}`.
 
 2. **Conexão com o Banco de Dados:**
@@ -194,28 +195,95 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
    - Se a foto for encontrada, a API retorna os bytes da foto como conteúdo da resposta HTTP, permitindo que o cliente visualize ou baixe a foto.
 
 ## Requisitos Funcionais
+Os requisitos funcionais descrevem as principais funcionalidades e comportamentos esperados da API em relação às operações que ela deve realizar. Abaixo estão os requisitos funcionais da API construída:
 
-[Liste os principais requisitos funcionais da aplicação.]
+### Requisitos Funcionais da API:
+
+1. **Cadastro de Usuários:**
+   - Permitir o cadastro de novos usuários fornecendo informações como nome, data de nascimento, e-mail, telefone e empresa.
+   - Endpoint: `POST /users/`
+
+2. **Listagem de Usuários:**
+   - Obter a lista de todos os usuários cadastrados no sistema, incluindo suas informações básicas.
+   - Endpoint: `GET /users/`
+
+3. **Atualização de Dados de Usuário:**
+   - Permitir a atualização das informações de um usuário existente com base no seu ID, incluindo nome, data de nascimento, e-mail, telefone e empresa.
+   - Endpoint: `PUT /users/{user_id}`
+
+4. **Upload e Recuperação de Fotos dos Usuários:**
+   - Permitir o upload de uma foto para um usuário específico.
+   - Recuperar a foto de um usuário pelo seu ID.
+   - Endpoints:
+     - Upload: `POST /users/{user_id}/photo`
+     - Recuperação: `GET /users/{user_id}/photo`
+
+5. **Documentação Interativa (Swagger/OpenAPI):**
+   - Fornecer uma documentação interativa da API utilizando o Swagger (OpenAPI) para facilitar o entendimento e uso por parte dos desenvolvedores.
+   - Endpoint: `GET /docs`
+
+6. **Esquema OpenAPI (JSON):**
+   - Disponibilizar o esquema OpenAPI (JSON) da API para permitir a integração e consumo por parte de clientes e serviços externos.
+   - Endpoint: `GET /openapi.json`
 
 ## Requisitos Não Funcionais
 
-[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
+1. **Desempenho:**
+   - A API deve ser eficiente e responsiva, suportando um grande volume de requisições simultâneas.
+   - Utiliza operações assíncronas (`async/await`) para melhorar o desempenho e escalabilidade, permitindo o processamento paralelo de requisições.
+
+2. **Segurança:**
+   - Implementa camadas de segurança para proteger os dados e endpoints sensíveis.
+   - Pode incluir autenticação por token (JWT) para validar e autorizar requisições de clientes autenticados.*(Debito Técnico)*
+
+3. **Confiabilidade:**
+   - A API deve ser robusta e tolerante a falhas, lidando adequadamente com exceções e erros.
+   - Utiliza tratamento de exceções para garantir que erros sejam capturados e tratados de forma apropriada, mantendo a disponibilidade do serviço.
+
+4. **Escalabilidade:**
+   - A arquitetura da API é projetada para ser escalável, permitindo o aumento da carga de trabalho conforme necessário.
+   - Utiliza banco de dados PostgreSQL, que é escalável e pode lidar com um grande número de transações e consultas.
+
+5. **Documentação e Usabilidade:**
+   - Fornece uma documentação interativa (Swagger UI) e um esquema OpenAPI (JSON) para facilitar o entendimento e a integração da API por parte dos desenvolvedores.
+   - Os endpoints são descritos de forma clara e concisa na documentação, indicando os parâmetros esperados e os tipos de retorno.
+
+6. **Manutenibilidade:**
+   - O código da API é estruturado de forma modular e organizada, facilitando a manutenção e evolução futura.
+   - Utiliza princípios de boas práticas de programação e design para garantir a legibilidade e extensibilidade do código.
+
+7. **Padrões e Conformidade:**
+   - A API adere a padrões e convenções da web, como RESTful, para garantir interoperabilidade com outras aplicações e serviços.
 
 ## Tecnologias Utilizadas
 
-Existem muitas tecnologias diferentes que podem ser usadas para desenvolver APIs Web. A tecnologia certa para o seu projeto dependerá dos seus objetivos, dos seus clientes e dos recursos que a API deve fornecer.
+1. **FastAPI:**
+   - Um framework web assíncrono para construção de APIs rápidas em Python, conhecido por sua performance e simplicidade.
 
-[Lista das tecnologias principais que serão utilizadas no projeto.]
+2. **asyncpg:**
+   - Uma biblioteca de acesso assíncrono ao PostgreSQL para interagir de forma eficiente com o banco de dados PostgreSQL utilizando operações assíncronas.
+
+3. **Pydantic:**
+   - Uma biblioteca para validação de dados e serialização de modelos em Python, usada para definir e validar os modelos de dados da API.
+
+4. **PIL (Pillow):**
+   - Uma biblioteca Python para processamento de imagens, utilizada para trabalhar com imagens no contexto do upload e armazenamento de fotos de usuários.
+
+5. **Swagger UI/OpenAPI:**
+   - Ferramentas utilizadas para documentação interativa da API, permitindo que os desenvolvedores visualizem e interajam com a especificação da API.
 
 ## API Endpoints
 
-[Liste os principais endpoints da API, incluindo as operações disponíveis, os parâmetros esperados e as respostas retornadas.]
-
-### Endpoint 1
-- Método: GET
-- URL: /endpoint1
+### Cadastro de Usuários
+- Método: POST 
+- URL: /users/
 - Parâmetros:
-  - param1: [descrição]
+  - `id`: ID numérico do usuário (int).
+  - `nome`: Nome do usuário (str).
+  - `data_de_nascimento`: Data de nascimento do usuário (str).
+  - `email`: E-mail do usuário (str).
+  - `telefone`: Número de telefone do usuário (str).
+  - `empresa`: Nome da empresa do usuário (str).
 - Resposta:
   - Sucesso (200 OK)
     ```
