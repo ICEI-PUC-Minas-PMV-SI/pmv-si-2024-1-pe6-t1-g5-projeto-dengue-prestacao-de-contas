@@ -1,11 +1,5 @@
 # APIs e Web Services
 
-O planejamento de uma aplicação de APIS Web é uma etapa fundamental para o sucesso do projeto. Ao planejar adequadamente, você pode evitar muitos problemas e garantir que a sua API seja segura, escalável e eficiente.
-
-Aqui estão algumas etapas importantes que devem ser consideradas no planejamento de uma aplicação de APIS Web.
-
-[Inclua uma breve descrição do projeto.]
-
 ## Objetivos da API
 
 A API deve permitir cadastro, listagem e atualização de usuários, incluindo operações de upload e recuperação de fotos associadas, com documentação interativa e esquema OpenAPI disponíveis, utilizando validação de dados e tratamento de exceções.
@@ -101,7 +95,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
 
 ## Fluxo de Dados por End-Point
 
-#Cadastro de Usuário
+## Cadastro de Usuário
 1. **Requisição do usuário (POST /users/ - Cadastro de Usuário):**
    - Um cliente faz uma requisição POST para o endpoint `/users/` com os dados de um novo usuário no corpo da requisição.
    - Os dados são validados pelo modelo Pydantic `UserCreate` para garantir sua integridade.
@@ -118,7 +112,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
    - Após a inserção bem-sucedida, a API retorna os dados do novo usuário no formato JSON com os campos especificados no modelo `UserCreate`.
 
 ---
-#Consulta de usuário
+## Consulta de usuário
 1. **Requisição do usuário (GET /users/ - Listagem de Usuários):**
    - Um cliente faz uma requisição GET para o endpoint `/users/` para obter a lista de todos os usuários cadastrados.
 
@@ -134,7 +128,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
    - Os dados dos usuários são retornados no formato JSON como uma lista de objetos `UserCreate`, contendo os detalhes de cada usuário.
 
 ---
-#Atualização de Usuário por ID
+## Atualização de Usuário por ID
 1. **Requisição do usuário (PUT /users/{user_id} - Atualização de Usuário):**
    - Um cliente faz uma requisição PUT para o endpoint `/users/{user_id}` para atualizar as informações de um usuário existente identificado pelo `{user_id}`.
 
@@ -154,7 +148,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
    - Após a atualização bem-sucedida, a API retorna os dados atualizados do usuário no formato JSON com os campos especificados no modelo `UserCreate`.
 
 ---
-#Adição de Imagem por ID
+## Adição de Imagem por ID
 1. **Requisição do usuário (POST /users/{user_id}/photo - Upload de Foto):**
    - Um cliente faz uma requisição POST para o endpoint `/users/{user_id}/photo` para fazer o upload de uma foto para um usuário específico identificado pelo `{user_id}`.
    - A foto é enviada no corpo da requisição como parte de um objeto `UploadFile`.
@@ -175,7 +169,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
    - Após o armazenamento bem-sucedido da foto no banco de dados, a API retorna uma resposta HTTP com uma mensagem de sucesso.
 
 ---
-#Consulta de Imagem por ID
+## Consulta de Imagem por ID
 1. **Requisição do usuário(GET /users/{user_id}/photo - Recuperação de Foto):**
    - Um cliente faz uma requisição GET para o endpoint `/users/{user_id}/photo` para recuperar a foto de um usuário específico identificado pelo `{user_id}`.
 
@@ -290,45 +284,160 @@ Os requisitos funcionais descrevem as principais funcionalidades e comportamento
     {
       "message": "Success",
       "data": {
-        ...
-      }
+          "id": 2,
+          "nome": "user teste",
+          "data_de_nascimento": "10/02/1990",
+          "email": "userteste@email.com",
+          "telefone": "37940028922",
+          "empresa": "empresa teste"
+}
     }
     ```
-  - Erro (4XX, 5XX)
+  - Erro (400)
     ```
     {
-      "message": "Error",
-      "error": {
-        ...
-      }
+      "message": "Falha ao criar usuário"
+    }
+    ```
+    - Erro (500)
+    ```
+    {
+      "message": "Internal Server Error"
     }
     ```
 
+### Consulta de Usuários
+- Método: GET  
+- URL: /users/
+- Parâmetros:
+  None
+- Resposta:
+  - Sucesso (200 OK)
+    ```
+    {
+      "message": "Success",
+      "data": {
+          "id": 2,
+          "nome": "user teste",
+          "data_de_nascimento": "10/02/1990",
+          "email": "userteste@email.com",
+          "telefone": "37940028922",
+          "empresa": "empresa teste"
+}
+    }
+    ```
+  - Erro (400)
+    ```
+    {
+      "message": "Falha ao recuperar usuários"
+    }
+    ```
+    - Erro (500)
+    ```
+    {
+      "message": "Internal Server Error"
+    }
+    ```
+
+### Consulta de Usuários
+- Método: PUT   
+- URL: /users/{user_id}
+- Parâmetros:
+   - `user_id`: ID numérico do usuário a ser atualizado (int) - passado como parte da URL.
+   - `user_data`: Dados atualizados do usuário (corpo da requisição no formato JSON).
+- Resposta:
+  - Sucesso (200 OK)
+    ```
+    {
+      "message": "Success",
+      "data": {
+          "id": 2,
+          "nome": "user teste",
+          "data_de_nascimento": "10/02/1990",
+          "email": "userteste@email.com",
+          "telefone": "37940028922",
+          "empresa": "empresa teste"
+}
+    }
+    ```
+  - Erro (400)
+    ```
+    {
+      "message": "Falha ao atualizar dados do usuário"
+    }
+    ```
+    - Erro (500)
+    ```
+    {
+      "message": "Internal Server Error"
+    }
+    ```
+### Upload de Imagem
+- Método: POST   
+- URL: /users/{user_id}/photo
+- Parâmetros:
+    - `user_id`: ID numérico do usuário para o qual a foto será associada (int) - passado como parte da URL.
+     - `photo`: Arquivo da foto a ser enviada (parte do corpo da requisição como um `multipart/form-data`).
+- Resposta:
+  - Sucesso (200 OK)
+    ```
+    {
+  "message": "Foto adicionada com sucesso"
+}
+    }
+    ```
+  - Erro (400)
+    ```
+    {
+      "message": "Falha no upload de imagem"
+    }
+    ```
+    - Erro (500)
+    ```
+    {
+      "message": "Internal Server Error"
+    }
+    ```
+
+### Upload de Imagem
+- Método: GET   
+- URL: /users/{user_id}/photo
+- Parâmetros:
+    - `user_id`: ID numérico do usuário para o qual a foto será associada (int) - passado como parte da URL.
+- Resposta:
+  - Sucesso (200 OK)
+    ```
+     {
+      "message": "Success",
+      "data": {{Imagem}}
+    }
+    ```
+  - Erro (400)
+    ```
+    {
+      "message": "Imgaem não encontrada"
+    }
+    ```
+    - Erro (500)
+    ```
+    {
+      "message": "Internal Server Error"
+    }
+    ```
 
 ## Considerações de Segurança
 
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+Quanto aos requisitos de segurança, os mesmos foram tratados como débitos técnicos e serão implementados nas entregas futuras.
 
 ## Implantação
-
-[Instruções para implantar a aplicação distribuída em um ambiente de produção.]
-
-1. Defina os requisitos de hardware e software necessários para implantar a aplicação em um ambiente de produção.
-2. Escolha uma plataforma de hospedagem adequada, como um provedor de nuvem ou um servidor dedicado.
-3. Configure o ambiente de implantação, incluindo a instalação de dependências e configuração de variáveis de ambiente.
-4. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.
-5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
+Para esta primeira etapa a API desenvolvida está sendo executada localmente até termos um front/back que possa se conectar e consumir os serviços desenvolvidos.
 
 ## Testes
 
-[Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
+Até o momento foram realizados apenas testes unitários visando garantir o MVP do projeto. 
 
-1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
-2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
-3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
-4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
-5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
+Como próximos passos temos os testes de caso de uso para assegurar a cobertura de todos os cenários possíveis pela aplicação.
 
 # Referências
-
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+- Documentação oficial das tecnologias utilizadas na API, como FastAPI, Pydantic, asyncpg.
+- Exemplos e tutoriais disponíveis nos sites oficiais e repositórios de código.
