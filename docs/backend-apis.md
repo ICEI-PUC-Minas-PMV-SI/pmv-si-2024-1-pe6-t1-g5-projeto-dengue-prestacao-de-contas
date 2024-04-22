@@ -286,8 +286,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
           "data_de_nascimento": "10/02/1990",
           "email": "userteste@email.com",
           "telefone": "37940028922",
-          "empresa": "empresa teste"
-}
+          "empresa": "empresa teste"}
     }
     ```
   - Erro (400)
@@ -319,8 +318,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
           "data_de_nascimento": "10/02/1990",
           "email": "userteste@email.com",
           "telefone": "37940028922",
-          "empresa": "empresa teste"
-}
+          "empresa": "empresa teste"}
     }
     ```
   - Erro (400)
@@ -336,7 +334,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
     }
     ```
 
-### Consulta de Usuários
+### Atualização de Usuários
 - Método: PUT   
 - URL: /users/{user_id}
 - Parâmetros:
@@ -353,8 +351,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
           "data_de_nascimento": "10/02/1990",
           "email": "userteste@email.com",
           "telefone": "37940028922",
-          "empresa": "empresa teste"
-}
+          "empresa": "empresa teste"}
     }
     ```
   - Erro (400)
@@ -379,9 +376,9 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
   - Sucesso (200 OK)
     ```
     {
-  "message": "Foto adicionada com sucesso"
-}
+      "message": "Foto adicionada com sucesso"
     }
+    
     ```
   - Erro (400)
     ```
@@ -404,7 +401,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
 - Resposta:
   - Sucesso (200 OK)
     ```
-     {
+    {
       "message": "Success",
       "data": {{Imagem}}
     }
