@@ -47,7 +47,8 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
 1. **UserCreate (Pydantic Model):**
    - Modelo Pydantic que representa os dados necessários para criar um novo usuário.
    - Campos incluem `id` (identificador único), `nome`, `data_de_nascimento`, `email`, `telefone` e `empresa`.
-     ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/90010232/382ce905-a636-467d-8dcb-102d8cf6108d)
+   ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/90010232/88a9dd8e-6ecf-4d52-90d8-44990dc37d97)
+
 
 
 ### Operações CRUD:
