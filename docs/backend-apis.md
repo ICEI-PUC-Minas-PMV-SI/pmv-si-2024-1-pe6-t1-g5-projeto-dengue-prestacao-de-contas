@@ -295,7 +295,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
       "message": "Falha ao criar usuário"
     }
     ```
-    - Erro (500)
+  - Erro (500)
     ```
     {
       "message": "Internal Server Error"
@@ -360,7 +360,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
       "message": "Falha ao atualizar dados do usuário"
     }
     ```
-    - Erro (500)
+  - Erro (500)
     ```
     {
       "message": "Internal Server Error"
@@ -386,7 +386,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
       "message": "Falha no upload de imagem"
     }
     ```
-    - Erro (500)
+  - Erro (500)
     ```
     {
       "message": "Internal Server Error"
@@ -412,7 +412,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
       "message": "Imgaem não encontrada"
     }
     ```
-    - Erro (500)
+  - Erro (500)
     ```
     {
       "message": "Internal Server Error"
