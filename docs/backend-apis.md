@@ -95,7 +95,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
 
 ## Fluxo de Dados por End-Point
 
-## Cadastro de Usuário
+# Cadastro de Usuário
 1. **Requisição do usuário (POST /users/ - Cadastro de Usuário):**
    - Um cliente faz uma requisição POST para o endpoint `/users/` com os dados de um novo usuário no corpo da requisição.
    - Os dados são validados pelo modelo Pydantic `UserCreate` para garantir sua integridade.
@@ -112,7 +112,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
    - Após a inserção bem-sucedida, a API retorna os dados do novo usuário no formato JSON com os campos especificados no modelo `UserCreate`.
 
 ---
-## Consulta de usuário
+# Consulta de usuário
 1. **Requisição do usuário (GET /users/ - Listagem de Usuários):**
    - Um cliente faz uma requisição GET para o endpoint `/users/` para obter a lista de todos os usuários cadastrados.
 
@@ -128,7 +128,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
    - Os dados dos usuários são retornados no formato JSON como uma lista de objetos `UserCreate`, contendo os detalhes de cada usuário.
 
 ---
-## Atualização de Usuário por ID
+# Atualização de Usuário por ID
 1. **Requisição do usuário (PUT /users/{user_id} - Atualização de Usuário):**
    - Um cliente faz uma requisição PUT para o endpoint `/users/{user_id}` para atualizar as informações de um usuário existente identificado pelo `{user_id}`.
 
@@ -148,7 +148,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
    - Após a atualização bem-sucedida, a API retorna os dados atualizados do usuário no formato JSON com os campos especificados no modelo `UserCreate`.
 
 ---
-## Adição de Imagem por ID
+# Adição de Imagem por ID
 1. **Requisição do usuário (POST /users/{user_id}/photo - Upload de Foto):**
    - Um cliente faz uma requisição POST para o endpoint `/users/{user_id}/photo` para fazer o upload de uma foto para um usuário específico identificado pelo `{user_id}`.
    - A foto é enviada no corpo da requisição como parte de um objeto `UploadFile`.
@@ -169,7 +169,7 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
    - Após o armazenamento bem-sucedido da foto no banco de dados, a API retorna uma resposta HTTP com uma mensagem de sucesso.
 
 ---
-## Consulta de Imagem por ID
+# Consulta de Imagem por ID
 1. **Requisição do usuário(GET /users/{user_id}/photo - Recuperação de Foto):**
    - Um cliente faz uma requisição GET para o endpoint `/users/{user_id}/photo` para recuperar a foto de um usuário específico identificado pelo `{user_id}`.
 
@@ -189,9 +189,6 @@ Essa arquitetura permite uma separação clara de responsabilidades entre os dif
    - Se a foto for encontrada, a API retorna os bytes da foto como conteúdo da resposta HTTP, permitindo que o cliente visualize ou baixe a foto.
 
 ## Requisitos Funcionais
-Os requisitos funcionais descrevem as principais funcionalidades e comportamentos esperados da API em relação às operações que ela deve realizar. Abaixo estão os requisitos funcionais da API construída:
-
-### Requisitos Funcionais da API:
 
 1. **Cadastro de Usuários:**
    - Permitir o cadastro de novos usuários fornecendo informações como nome, data de nascimento, e-mail, telefone e empresa.
