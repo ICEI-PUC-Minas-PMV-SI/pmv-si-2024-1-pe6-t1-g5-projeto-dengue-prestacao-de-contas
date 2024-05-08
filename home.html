@@ -6,6 +6,15 @@
 <title>Travel Payback</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="home.css">
+<style>
+/* Adicionei um estilo para ajustar a largura da imagem para telas menores */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 80px; /* Ajuste a altura conforme necessário */
+        width: auto;
+    }
+}
+</style>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -31,8 +40,9 @@
 
 <div class="container">
     <div class="text-center my-5">        
-        <img src="logo.png" alt="Logo">
+        <img src="logo.png" alt="Logo" class="img-fluid"> <!-- Adicionei a classe img-fluid para tornar a imagem responsiva -->
         <h1>Agilizando o controle dos investimentos em viagens da sua organização!</h1>
+    </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
