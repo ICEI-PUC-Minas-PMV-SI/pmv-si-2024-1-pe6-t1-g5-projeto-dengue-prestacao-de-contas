@@ -27,9 +27,8 @@ body {
     border-radius: 10px;
 }
 
-div {
+h3 {
     color: #008000; /*Verde*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }
-
