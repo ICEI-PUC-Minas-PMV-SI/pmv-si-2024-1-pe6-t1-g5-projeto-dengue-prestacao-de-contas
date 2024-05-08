@@ -62,13 +62,48 @@ body {
   }
 
   h1 {
+    color: #008000; /*Verde*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: inherit;
+    font-style: italic;
     text-align: center;
-  }
+}
 
   img {
     align-items: right center;
     position: relative;
     
   }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Branco */
+    color: #008000; /* Verde */
+}
 
+.navbar-brand {
+    color: #008000; /* Verde */
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #008000; /* Verde */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #005700; /* Verde mais escuro */
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.img-fluid {
+    border-radius: 10px;
+}
+
+
+ 
   
