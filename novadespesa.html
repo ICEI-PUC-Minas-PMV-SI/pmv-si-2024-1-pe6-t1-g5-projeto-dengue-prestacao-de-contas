@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Despesas de Viagem</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
+    <style>
+        body {
+            font-family: Calibri, sans-serif;
+            padding-top: 0; /* Removendo espaçamento entre o topo da página e a navbar */
+        }
+        h1 {
+            text-align: center;
+            color: #008000;
+        }
+        label, input, select {
+            color: #008000;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 30px;
+        }
+        .btn-add-expense {
+            background-color: #008000;
+            color: #ffffff;
+            border: none;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .btn-add-expense:hover {
+            background-color: #ff0000;
+            color: #ffffff;
+        }
+        .btn-add-expense:hover::after {
+            content: " > Submeter Despesa";
+        }
+        /* Navbar */
+        .navbar {
+            background-color: #ffffff !important;
+            font-family: Calibri, sans-serif;
+            padding-top: 10px; /* Espaçamento interno da navbar */
+            padding-bottom: 10px; /* Espaçamento interno da navbar */
+        }
+        .navbar-brand {
+            padding: 0; /* Removendo padding da marca da navbar */
+        }
+        .navbar-nav .nav-link {
+            color: #008000 !important;
+        }
+        .dropdown-menu {
+            background-color: #008000;
+        }
+        .dropdown-menu .dropdown-item {
+            color: #ffffff !important;
+        }
+        /* Ajuste da palavra "Menu" */
+        .navbar .navbar-nav .nav-link.dropdown-toggle {
+            font-family: Calibri, sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+            color: #008000 !important;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="botao.png" alt="Logo" height="100" width="100"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Menu
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Log in</a>
+                    <a class="dropdown-item" href="#">FAQ</a>
+                    <a class="dropdown-item" href="#">Sobre</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>Despesas de Viagem</h1>
+    
+    <form id="expense-form">
+        <div class="form-group">
+            <label for="expense-date">Data da Despesa:</label>
+            <input type="date" id="expense-date" name="expense-date" class="form-control" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="expense-amount">Valor da Despesa (R$)* :</label>
+            <input type="text" id="expense-amount" name="expense-amount" class="form-control" required>
+            <small id="amountHelp" class="form-text text-muted">* Favor inserir vírgula para centavos.</small>
+        </div>
+        
+        <div class="form-group">
+            <label for="expense-type">Tipo de Despesa:</label>
+            <select id="expense-type" name="expense-type" class="form-control" required>
+                <option value="">Selecione o tipo de despesa</option>
+                <option value="alimentacao">Alimentação</option>
+                <option value="aplicativo">Aplicativo</option>
+                <option value="combustivel">Combustível</option>
+                <option value="cuidados-medicos">Cuidados Médicos</option>
+                <option value="cuidados-odontologicos">Cuidados Odontológicos</option>
+                <option value="passagem-aerea">Passagem Aérea</option>
+                <option value="passagem-onibus">Passagem de Ônibus</option>
+                <option value="taxi">Táxi</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="expense-state">Estado:</label>
+            <select id="expense-state" name="expense-state" class="form-control" required>
+                <!-- Options for states will be dynamically added here -->
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="expense-city">Cidade:</label>
+            <select id="expense-city" name="expense-city" class="form-control" required>
+                <!-- Options for cities will be dynamically added here -->
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="expense-receipt">Comprovante (JPG):</label>
+            <input type="file" id="expense-receipt" name="expense-receipt" accept="image/jpeg" class="form-control-file" required>
+        </div>
+        
+        <button type="submit" class="btn btn-add-expense">Adicionar Despesa</button>
+    </form>
+
+    <div id="expense-list">
+        <!-- Aqui serão exibidas as despesas cadastradas -->
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        // Inicializando o plugin Select2 para tornar a seleção de cidades mais amigável
+        $('#expense-city').select2();
+
+        // Carregar estados
+        $.getJSON("https://servicodados.ibge.gov.br/api/v1/localidades/estados", function(data){
+            // Ordenar os estados em ordem alfabética
+            data.sort((a, b) => (a.nome > b.nome) ? 1 : -1);
+            $.each(data, function(key, value){
+                $('#expense-state').append('<option value="' + value.sigla + '">' + value.nome + '</option>');
+            });
+        });
+
+        // Quando o estado é selecionado, carregar cidades
+        $('#expense-state').on('change', function(){
+            var uf = $(this).val();
+            $('#expense-city').empty();
+            $.getJSON("https://servicodados.ibge.gov.br/api/v1/localidades/estados/" + uf + "/municipios", function(data){
+                $.each(data, function(key, value){
+                    $('#expense-city').append('<option value="' + value.nome + '">' + value.nome + '</option>');
+                });
+            });
+        });
+
+        // Formatando o campo de valor da despesa enquanto o usuário digita
+        $('#expense-amount').on('input', function(){
+            // Obtendo o valor atual do campo
+            var value = $(this).val();
+
+            // Removendo todos os caracteres que não são números ou vírgulas
+            value = value.replace(/[^\d,]/g, '');
+
+            // Separando o valor em reais e centavos
+            var parts = value.split(',');
+            var reais = parts[0].replace(/\D/g, ''); // Removendo caracteres não numéricos
+            var centavos = parts[1] || ''; // Pode não existir centavos
+
+            // Limitando a 5 dígitos antes da vírgula
+            reais = reais.substring(0, 5);
+
+            // Adicionando ponto para separar milhares, se houver
+            reais = reais.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+
+            // Recriando o valor com ponto para separar milhares e vírgula para separar centavos, se houver
+            value = reais + (centavos !== '' ? ',' + centavos : '');
+
+            // Atualizando o valor do campo
+            $(this).val('R$ ' + value);
+        });
+    });
+</script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
