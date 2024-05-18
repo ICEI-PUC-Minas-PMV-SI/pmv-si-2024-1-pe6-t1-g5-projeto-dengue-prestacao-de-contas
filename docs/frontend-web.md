@@ -43,11 +43,25 @@ Segue as lista de tecnologias utilizadas:
 
 ## Requisitos Funcionais
 
-[Liste os principais requisitos funcionais da aplicação.]
+| ID | Descrição do Requisito | Prioridade |
+| --- | --- | --- |
+| RF-001 | O sistema deverá apresentar funções para cadastro e consulta de gastos. | Alta |
+| RF-002 | O sistema deverá apresentar uma seção de "Perguntas Frequentes" para auxiliar usuários em caso de dúvidas | Média |
+| RF-003 | O sistema deve mostrar todo detalhamento para se registrar um novo gasto, como do tipo de despesa e foto do comprovante| Alta |
+| RF-004 | O sistema deve ter funcionalidades adicionar, excluir e consultar funcionários.  | Média |
 
 ## Requisitos Não Funcionais
 
-[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
+
+| ID | Descrição do Requisito | Prioridade |
+| --- | --- | --- |
+| RNF-001 | A aplicação deve funcionar nos navegadores mais utilizados, como o Google Chrome, Microsoft Edge e Mozilla Firefox; | Alta |
+| RNF-002 | A aplicação deve ser responsiva, pois assim será possível utilizá-la em dispositivos com telas menores; | Alta |
+| RNF-003 | É necessário autenticação de dados para navegação | Alta |
+| RNF-004 | Será possível a edição de conteúdos pelo usuário, como adicionar novos gastos de viagem. | Alta |
+| RNF-005 | Deverá ser desenvolvido pela linguagens HTML, CSS, JavaScript | Alta |
+|RNF-006  | A aplicação deve funcionar em sistemas operacionais famosos como o Microsoft Windows, Linux e Max OS.  | Alta |
+
 
 
 ## Considerações de Segurança
