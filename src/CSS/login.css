@@ -103,7 +103,32 @@ body {
 .img-fluid {
     border-radius: 10px;
 }
-
+/* Navbar */
+.navbar {
+  background-color: #ffffff !important;
+  font-family: Calibri, sans-serif;
+  padding-top: 10px; /* Espaçamento interno da navbar */
+  padding-bottom: 10px; /* Espaçamento interno da navbar */
+}
+.navbar-brand {
+  padding: 0; /* Removendo padding da marca da navbar */
+}
+.navbar-nav .nav-link {
+  color: #008000 !important;
+}
+.dropdown-menu {
+  background-color: #008000;
+}
+.dropdown-menu .dropdown-item {
+  color: #ffffff !important;
+}
+/* Ajuste da palavra "Menu" */
+.navbar .navbar-nav .nav-link.dropdown-toggle {
+  font-family: Calibri, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #008000 !important;
+}
 
  
   
