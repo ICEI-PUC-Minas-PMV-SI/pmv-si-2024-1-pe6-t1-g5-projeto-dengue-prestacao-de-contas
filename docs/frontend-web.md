@@ -5,6 +5,14 @@
 ## Tecnologias Utilizadas
 [Lista das tecnologias principais que serão utilizadas no projeto.]
 
+Segue as lista de tecnologias utilizadas:
+
+* HTML5 - Linguagem de Marcação Hipertexto utilizada com muita frequência em projeto de páginas Web;
+* CSS - Linguagem utilizada para estilização de componentes presentes em páginas Web;
+* Bootstrap - Framework para projetos de aplicações Front-End, onde é entregue os usuários vários modelos de funcionalidades que podem ser utilizados;
+ * Java - 
+* JavaScript - 
+
 ## Arquitetura
 
 [Descrição da arquitetura das aplicação web, incluindo os componentes e suas interações.]
@@ -20,6 +28,9 @@
 
 ### Design Visual
 [Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
+
+# 
+
 
 ### Layout Responsivo
 [Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
