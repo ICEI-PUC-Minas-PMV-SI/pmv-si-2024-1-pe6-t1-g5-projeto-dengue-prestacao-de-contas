@@ -38,7 +38,7 @@ Seção utilizada para consultar ou cadastrar novos gastos.
 
 ![Registrar_Gastos.png](/src/IMAGE/Registrar_Gastos.png)
 
-Página utilzada para cadastrar novos gastos do funcionário.
+Página utilizada para cadastrar novos gastos do funcionário.
 
 ### Wireframes
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
@@ -51,6 +51,10 @@ Página utilzada para cadastrar novos gastos do funcionário.
 
 ### Layout Responsivo
 [Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
+
+Com o auxílio do Bootstrap, foi possível implementar a responsividade na página, segue um exemplo na prática.
+
+![Página_Responsiva.png](/src/IMAGE/Página_Responsiva.png)
 
 ### Interações do Usuário
 [Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
