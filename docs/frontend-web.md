@@ -10,8 +10,7 @@ Segue as lista de tecnologias utilizadas:
 * HTML5 - Linguagem de Marcação Hipertexto utilizada com muita frequência em projeto de páginas Web;
 * CSS - Linguagem utilizada para estilização de componentes presentes em páginas Web;
 * Bootstrap - Framework para projetos de aplicações Front-End, onde é entregue os usuários vários modelos de funcionalidades que podem ser utilizados;
- * Java - 
-* JavaScript - 
+* JavaScript - Foi utilizado está linguagem para validação de login no lado do cliente (navegador) devido à sua vasta presença na internet. O que permite validar instantaneamente campos de formulário, como, por exemplo: verificação de campos obrigatórios, formato do e-mail, extensão da senha e entre outros.
 
 ## Arquitetura
 
