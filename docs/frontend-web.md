@@ -19,7 +19,9 @@ Segue as lista de tecnologias utilizadas:
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/160795375/5e4b4ec9-8b48-4d3d-b020-65a520f37df4)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/160795375/b680012e-907d-4faa-bdf6-9c0bccc81bec)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/160795375/b2d3cd4c-0410-4ba2-985f-a969dbe3c306)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/160795375/31291e38-489b-4151-b635-c98d790d82af)
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/160795375/63c10cf0-ac01-4a0c-a59a-98c0ebd6ebf2)
 
