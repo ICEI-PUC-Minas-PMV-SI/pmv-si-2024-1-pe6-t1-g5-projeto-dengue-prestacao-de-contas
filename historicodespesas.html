@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histórico de Despesas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Calibri', sans-serif;
+            background-color: #f0f0f0;
+            color: #008000; /* Cor verde */
+            padding-top: 20px; /* Adiciona espaço acima do conteúdo */
+            padding-bottom: 20px; /* Adiciona espaço abaixo do conteúdo */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .expense {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        .expense-details {
+            margin-top: 10px;
+        }
+
+        .expense-item {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .btn-view {
+            background-color: #008000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn-view:hover {
+            background-color: #ff0000;
+            color: #fff;
+        }
+
+        .expense-image {
+            display: none;
+            width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        .image-container.active .expense-image {
+            display: block;
+        }
+
+        /* Estilo para a navbar */
+        .navbar {
+            background-color: #008000; /* Cor verde */
+            color: #fff; /* Cor branca */
+        }
+
+        .navbar-brand img {
+            height: 100px;
+            width: 100px;
+        }
+
+        /* Corrigir dropdown */
+        .dropdown-menu {
+            position: absolute !important; /* Forçar a posição absoluta */
+            width: auto;
+            margin-top: 0 !important; /* Remove o deslocamento para baixo */
+            margin-left: 0 !important; /* Remove o deslocamento para a direita */
+            left: 0 !important; /* Alinha o dropdown à esquerda */
+            right: auto !important; /* Remove o alinhamento à direita */
+        }
+
+        .dropdown-menu.show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="botao.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Log in</a>
+                        <a class="dropdown-item" href="#">FAQ</a>
+                        <a class="dropdown-item" href="#">Sobre</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="text-center">Histórico de Despesas</h1>
+
+        <!-- Botões de Ordenação -->
+        <div class="text-center mb-3">
+            <button class="btn btn-primary mr-2" id="sortByDate">Ordenar por Data</button>
+            <button class="btn btn-primary mr-2" id="sortByValue">Ordenar por Valor</button>
+            <button class="btn btn-primary" id="sortByCity">Ordenar por Cidade</button>
+        </div>
+
+        <!-- Filtros -->
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="filterType">Filtrar por Tipo:</label>
+                <select class="form-control" id="filterType">
+                    <option value="">Todos</option>
+                    <option value="Alimentação">Alimentação</option>
+                    <option value="Aplicativo">Aplicativo</option>
+                    <option value="Combustível">Combustível</option>
+                    <option value="Cuidados Médicos">Cuidados Médicos</option>
+                    <option value="Cuidados Odontológicos">Cuidados Odontológicos</option>
+                    <option value="Passagem Aérea">Passagem Aérea</option>
+                    <option value="Passagem de Ônibus">Passagem de Ônibus</option>
+                    <option value="Táxi">Táxi</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="filterState">Filtrar por Estado:</label>
+                <select class="form-control" id="filterState">
+                    <option value="">Todos</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Lista de Despesas -->
+        <div class="expenses">
+            <!-- Início da simulação de despesas -->
+            <div class="expense">
+                <h3>Nome do Funcionário: José João</h3>
+                <div class="expense-details">
+                    <!-- Simulação de 8 despesas -->
+                    <div class="expense-item">
+                        <div>Data: 2024-05-01</div>
+                        <div>Valor: R$ 150,00</div>
+                        <div>Tipo: Alimentação</div>
+                        <div>Estado: São Paulo</div>
+                        <div>Cidade: São Paulo</div>
+                        <button class="btn btn-view mt-2">Ver Comprovante</button>
+                        <div class="image-container">
+                            <img src="comprovante1.jpg" alt="Comprovante de Despesa" class="expense-image">
+                        </div>
+                    </div>
+                    <!-- Simulação de mais 7 despesas -->
+                    <div class="expense-item">
+                        <div>Data: 2024-05-05</div>
+                        <div>Valor: R$ 200,00</div>
+                        <div>Tipo: Combustível</div>
+                        <div>Estado: São Paulo</div>
+                        <div>Cidade: Campinas</div>
+                        <button class="btn btn-view mt-2">Ver Comprovante</button>
+                        <div class="image-container">
+                            <img src="comprovante2.jpg" alt="Comprovante de Despesa" class="expense-image">
+                        </div>
+                    </div>
+                    <div class="expense-item">
+                        <div>Data: 2024-05-10</div>
+                        <div>Valor: R$ 100,00</div>
+                        <div>Tipo: Alimentação</div>
+                        <div>Estado: São Paulo</div>
+                        <div>Cidade: São Paulo</div>
+                        <button class="btn btn-view mt-2">Ver Comprovante</button>
+                        <div class="image-container">
+                            <img src="comprovante3.jpg" alt="Comprovante de Despesa" class="expense-image">
+                        </div>
+                    </div>
+                    <div class="expense-item">
+                        <div>Data: 2024-05-15</div>
+                        <div>Valor: R$ 120,00</div>
+                        <div>Tipo: Cuidados Médicos</div>
+                        <div>Estado: São Paulo</div>
+                        <div>Cidade: Campinas</div>
+                        <button class="btn btn-view mt-2">Ver Comprovante</button>
+                        <div class="image-container">
+                            <img src="comprovante4.jpg" alt="Comprovante de Despesa" class="expense-image">
+                        </div>
+                    </div>
+                    <div class="expense-item">
+                        <div>Data: 2024-05-20</div>
+                        <div>Valor: R$ 180,00</div>
+                        <div>Tipo: Alimentação</div>
+                        <div>Estado: São Paulo</div>
+                        <div>Cidade: São Paulo</div>
+                        <button class="btn btn-view mt-2">Ver Comprovante</button>
+                        <div class="image-container">
+                            <img src="comprovante5.jpg" alt="Comprovante de Despesa" class="expense-image">
+                        </div>
+                    </div>
+                    <div class="expense-item">
+                        <div>Data: 2024-05-25</div>
+                        <div>Valor: R$ 170,00</div>
+                        <div>Tipo: Combustível</div>
+                        <div>Estado: São Paulo</div>
+                        <div>Cidade: Campinas</div>
+                        <button class="btn btn-view mt-2">Ver Comprovante</button>
+                        <div class="image-container">
+                            <img src="comprovante6.jpg" alt="Comprovante de Despesa" class="expense-image">
+                        </div>
+                    </div>
+                    <div class="expense-item">
+                        <div>Data: 2024-05-30</div>
+                        <div>Valor: R$ 250,00</div>
+                        <div>Tipo: Alimentação</div>
+                        <div>Estado: São Paulo</div>
+                        <div>Cidade: São Paulo</div>
+                        <button class="btn btn-view mt-2">Ver Comprovante</button>
+                        <div class="image-container">
+                            <img src="comprovante7.jpg" alt="Comprovante de Despesa" class="expense-image">
+                        </div>
+                    </div>
+                    <div class="expense-item">
+                        <div>Data: 2024-06-01</div>
+                        <div>Valor: R$ 180,00</div>
+                        <div>Tipo: Combustível</div>
+                        <div>Estado: São Paulo</div>
+                        <div>Cidade: Campinas</div>
+                        <button class="btn btn-view mt-2">Ver Comprovante</button>
+                        <div class="image-container">
+                            <img src="comprovante8.jpg" alt="Comprovante de Despesa" class="expense-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim da simulação de despesas -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.querySelectorAll('.btn-view').forEach(button => {
+            button.addEventListener('click', () => {
+                const imageContainer = button.parentElement.querySelector('.image-container');
+                imageContainer.classList.toggle('active');
+            });
+        });
+
+        // Função para ordenar por Data
+        document.getElementById('sortByDate').addEventListener('click', () => {
+            // Implementar a lógica para ordenar por Data
+            alert('Ordenado por Data');
+        });
+
+        // Função para ordenar por Valor
+        document.getElementById('sortByValue').addEventListener('click', () => {
+            // Implementar a lógica para ordenar por Valor
+            alert('Ordenado por Valor');
+        });
+
+        // Função para ordenar alfabeticamente por Cidade
+        document.getElementById('sortByCity').addEventListener('click', () => {
+            // Implementar a lógica para ordenar alfabeticamente por Cidade
+            alert('Ordenado por Cidade');
+        });
+
+        // Função para filtrar por Tipo
+        document.getElementById('filterType').addEventListener('change', () => {
+            const selectedType = document.getElementById('filterType').value;
+            // Implementar a lógica para filtrar por Tipo
+            alert('Filtrado por Tipo: ' + selectedType);
+        });
+    </script>
+</body>
+</html>

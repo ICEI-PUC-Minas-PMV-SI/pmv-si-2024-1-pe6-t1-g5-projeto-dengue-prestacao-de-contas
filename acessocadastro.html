@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de Funcionários</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Calibri', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #008000;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Estilização dos botões */
+        .btn {
+            background-color: #008000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin-right: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #ff0000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="botao.png" alt="Logo" height="100" width="100" ></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Log in</a>
+                        <a class="dropdown-item" href="#">FAQ</a>
+                        <a class="dropdown-item" href="#">Sobre</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Listagem de Funcionários</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Cargo</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Simulação de 12 pessoas cadastradas -->
+                <tr>
+                    <td>João da Silva</td>
+                    <td>123.456.789-00</td>
+                    <td>Analista de Vendas</td>
+                    <td>
+                        <a href="#" class="btn" onclick="consultar()">Consultar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('alterar')">Alterar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('inativar')">Inativar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>987.654.321-00</td>
+                    <td>Gerente de RH</td>
+                    <td>
+                        <a href="#" class="btn" onclick="consultar()">Consultar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('alterar')">Alterar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('inativar')">Inativar</a>
+                    </td>
+                </tr>
+                <!-- Adicionando mais 10 pessoas fictícias -->
+                <tr>
+                    <td>Carlos Pereira</td>
+                    <td>234.567.890-11</td>
+                    <td>Analista de Marketing</td>
+                    <td>
+                        <a href="#" class="btn" onclick="consultar()">Consultar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('alterar')">Alterar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('inativar')">Inativar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Camila Santos</td>
+                    <td>345.678.901-22</td>
+                    <td>Analista de RH</td>
+                    <td>
+                        <a href="#" class="btn" onclick="consultar()">Consultar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('alterar')">Alterar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('inativar')">Inativar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Luisa Mendes</td>
+                    <td>456.789.012-33</td>
+                    <td>Analista Financeiro</td>
+                    <td>
+                        <a href="#" class="btn" onclick="consultar()">Consultar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('alterar')">Alterar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('inativar')">Inativar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fernando Costa</td>
+                    <td>567.890.123-44</td>
+                    <td>Desenvolvedor Web</td>
+                    <td>
+                        <a href="#" class="btn" onclick="consultar()">Consultar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('alterar')">Alterar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('inativar')">Inativar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Marcos Lima</td>
+                    <td>678.901.234-55</td>
+                    <td>Analista de Sistemas</td>
+                    <td>
+                        <a href="#" class="btn" onclick="consultar()">Consultar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('alterar')">Alterar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('inativar')">Inativar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Larissa Oliveira</td>
+                    <td>789.012.345-66</td>
+                    <td>Analista de Qualidade</td>
+                    <td>
+                        <a href="#" class="btn" onclick="consultar()">Consultar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('alterar')">Alterar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('inativar')">Inativar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Lucas Carvalho</td>
+                    <td>890.123.456-77</td>
+                    <td>Designer Gráfico</td>
+                    <td>
+                        <a href="#" class="btn" onclick="consultar()">Consultar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('alterar')">Alterar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('inativar')">Inativar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ana Pereira</td>
+                    <td>901.234.567-88</td>
+                    <td>Engenheira Civil</td>
+                    <td>
+                        <a href="#" class="btn" onclick="consultar()">Consultar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('alterar')">Alterar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('inativar')">Inativar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Paulo Martins</td>
+                    <td>012.345.678-99</td>
+                    <td>Analista de Suporte</td>
+                    <td>
+                        <a href="#" class="btn" onclick="consultar()">Consultar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('alterar')">Alterar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('inativar')">Inativar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fabiana Souza</td>
+                    <td>987.654.321-11</td>
+                    <td>Coordenadora de Projetos</td>
+                    <td>
+                        <a href="#" class="btn" onclick="consultar()">Consultar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('alterar')">Alterar</a>
+                        <a href="#" class="btn" onclick="confirmarAcao('inativar')">Inativar</a>
+                    </td>
+                </tr>
+                <!-- Fim da simulação de 12 pessoas cadastradas -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function consultar() {
+            alert('Detalhes do funcionário.');
+        }
+
+        function confirmarAcao(acao) {
+            if (acao === 'cadastrar') {
+                return true;
+            }
+
+            var usuario = prompt('Digite seu usuário:');
+            var senha = prompt('Digite sua senha:');
+
+            var validacao = false;
+
+            if (validacao) {
+                alert('Usuário e senha válidos! Prosseguindo com a ação de ' + acao);
+                return true;
+            } else {
+                alert('Usuário ou senha inválidos. Ação cancelada.');
+                return false;
+            }
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
