@@ -192,6 +192,33 @@ Firewalls e IDS/IPS: Utilizar firewalls para filtrar tráfego indesejado e siste
 4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
 5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
 
+Nós elaboramos 2 casos de teste da aplicação, onde utilizamos a metodologia de Teste Unitário, onde faremos da seguinte forma:
+
+* O objetivo será definido
+* Demonstração do Código
+* Teste escrito
+* Execução do teste
+* Análise do resultado
+
+
+ ## Teste de login para acesso na aplicação
+
+ ### Objetivo
+
+ Esse teste foi executado com o objetivo de verificar se é possível acessar a aplicação sem uma conta de acesso.
+
+ ### Demonstração do Código 
+
+ ### Execução do Teste 
+
+ Basicamente o testador da aplicação vai tentar fazer login na página com os campos de login e senha sem preenchê-los. Para fazer o login, basta o usuário clicar em entrar.
+
+ Felizmente como esperado, a solução manda uma mensagem padrão para o usuário, onde o solicita para preencher o campos obrigatórios para fazer o login.
+
+### Análise de Resultados
+
+Como basicamente o resultado do teste foi um sucesso, não será necessário refazer o código da solução.
+
 # Referências
 
 * Bootstrap. The most popular HTML, CSS and JS library in the World. **Bootstrap**, [s.d.]. Disponível em: https://getbootstrap.com/. Acesso em 16 de maio de 2024.
