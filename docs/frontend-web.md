@@ -155,4 +155,6 @@ Firewalls e IDS/IPS: Utilizar firewalls para filtrar tráfego indesejado e siste
 
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+* Bootstrap. The most popular HTML, CSS and JS library in the World. **Bootstrap**, [s.d.]. Disponível em: https://getbootstrap.com/. Acesso em 16 de maio de 2024.
+
+* CASTRO, Bruna. Notação BPMN: um guia completo sobre o assunto! **Zeev**, [s.d.]. Disponível em: https://zeev.it/blog/o-que-significa-bpmn/. Acesso em: 18 de maio de 2024.
