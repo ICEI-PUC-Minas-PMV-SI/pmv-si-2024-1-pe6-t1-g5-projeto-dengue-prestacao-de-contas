@@ -76,6 +76,22 @@ A fonte utilizada foi da família:
 
 Obs.: Para deixar mais específico, foi utilizado a Calibri, pois alguns artigos indicam que pessoas disléxicas possuem mais facilidade para ler essa fonte.
 
+## Ícones utilizados
+
+Na aplicação Web, foram utilizados duas imagens.
+
+A primeira imagem foi utilizada na página Home, utilizada basicamente para apresentar o nosso projeto. 
+
+Segue o modelo: 
+
+![LogoPrincipal.png](/src/IMAGE/LOGO.png)
+
+Por outro lado, a segunda imagem é utilizada como um botão de navegação para voltar a página principal, onde o usuário pode escolher se ele deseja consultar os seus funcionários ou seus pagamentos.
+
+Segue o modelo: 
+
+![Imagem_Home.png](/src/IMAGE/HOME.png)
+
 
 # 
 
