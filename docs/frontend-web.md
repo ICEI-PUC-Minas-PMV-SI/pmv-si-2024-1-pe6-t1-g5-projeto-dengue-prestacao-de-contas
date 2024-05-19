@@ -96,8 +96,6 @@ Com o auxílio do Bootstrap, foi possível implementar a responsividade na pági
 
 ## Considerações de Segurança
 
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
-
 Para um sistema de prestação de contas onde os funcionários inserem informações sobre gastos, notas fiscais e dados bancários, as considerações de segurança são absolutamente essenciais. A proteção dessas informações sensíveis não só preserva a privacidade dos dados dos funcionários, mas também assegura a integridade e confiabilidade do sistema. Implementar robustas medidas de segurança é fundamental para prevenir acessos não autorizados, ataques cibernéticos e potenciais fraudes. Além disso, garantir a conformidade com regulamentações de proteção de dados é vital para evitar penalidades legais e manter a confiança dos usuários na plataforma.
 
 A seguir estão considerações de ferramentas e políticas que podem ser úteis para a segurança da plataforma, assim como seus objetivos
