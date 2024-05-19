@@ -19,6 +19,12 @@ Segue as lista de tecnologias utilizadas:
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/160795375/5e4b4ec9-8b48-4d3d-b020-65a520f37df4)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-prestacao-de-contas/assets/160795375/63c10cf0-ac01-4a0c-a59a-98c0ebd6ebf2)
+
+
+
 ## Projeto da Interface Web
 [Descreva o projeto da interface Web da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
 
