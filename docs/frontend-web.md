@@ -201,7 +201,7 @@ Nós elaboramos 2 casos de teste da aplicação, onde utilizamos a metodologia d
 * Análise do resultado
 
 
- ## Teste de login para acesso na aplicação
+ ## **Teste 1**: Teste de login para acesso na aplicação
 
  ### Objetivo
 
@@ -218,6 +218,28 @@ Nós elaboramos 2 casos de teste da aplicação, onde utilizamos a metodologia d
 ### Análise de Resultados
 
 Como basicamente o resultado do teste foi um sucesso, não será necessário refazer o código da solução.
+
+## **Teste 2**: Cadastro de uma nova despesa
+
+ ### Objetivo
+
+ O segundo teste foi executado com o fundamento de checar a possibildade de cadastrar um novo gasto sem preencher um novo gasto.
+
+ ### Demonstração do Código 
+
+ ### Execução do Teste 
+
+ Testador da aplicação irá acessar a página de cadastro de nova despesa e tentar preencher os campos de forma incorreta e tentar registrar o gasto.
+
+ No campo de Valor de Despesa, ele irá tentar preencher o campo com letras(A,B,C...) e caracteres especiais(!,@,#...).
+
+ Como esperado
+
+### Análise de Resultados
+
+Como basicamente o resultado do teste foi um sucesso, não será necessário refazer o código da solução.
+
+
 
 # Referências
 
