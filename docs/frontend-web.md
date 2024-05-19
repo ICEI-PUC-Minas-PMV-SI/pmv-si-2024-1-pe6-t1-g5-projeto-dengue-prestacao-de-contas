@@ -52,7 +52,30 @@ Página utilizada para cadastrar novos gastos do funcionário.
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
 
 ### Design Visual
-[Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
+
+## Paleta de Cores
+
+Para a elaboração da página Web do projeto, os componentes escolheram uma combinação de branco e verde para a criação das páginas.
+
+No corpo das páginas, foi utilizado o seguinte Hexadecimal:
+
+* #FFFFFF.
+
+Já para a barra de navegação, títulos e entro outros textos, o verde foi utilizado para combinar junto a cor da logo do projeto.
+
+Segue as variações de Hexadecimais utilizados: 
+* #008000;
+* #005700;
+* #006400;
+
+## Tipografia
+
+A fonte utilizada foi da família:
+
+* 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+Obs.: Para deixar mais específico, foi utilizado a Calibri, pois alguns artigos indicam que pessoas disléxicas possuem mais facilidade para ler essa fonte.
+
 
 # 
 
@@ -158,3 +181,5 @@ Firewalls e IDS/IPS: Utilizar firewalls para filtrar tráfego indesejado e siste
 * Bootstrap. The most popular HTML, CSS and JS library in the World. **Bootstrap**, [s.d.]. Disponível em: https://getbootstrap.com/. Acesso em 16 de maio de 2024.
 
 * CASTRO, Bruna. Notação BPMN: um guia completo sobre o assunto! **Zeev**, [s.d.]. Disponível em: https://zeev.it/blog/o-que-significa-bpmn/. Acesso em: 18 de maio de 2024.
+
+* Fontes para pessoas com dislexia. **IFRS**, 02 de maio de 2022. Disponível em: https://cta.ifrs.edu.br/fontes-para-pessoas-com-dislexia/#:~:text=%C3%89%20sempre%20recomendado%20escolher%20fontes,a%20leitura%20ainda%20mais%20dif%C3%ADcil. Acesso em: 19 de maio de 2024.
