@@ -98,6 +98,43 @@ Com o auxílio do Bootstrap, foi possível implementar a responsividade na pági
 
 [Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
 
+Para um sistema de prestação de contas onde os funcionários inserem informações sobre gastos, notas fiscais e dados bancários, as considerações de segurança são absolutamente essenciais. A proteção dessas informações sensíveis não só preserva a privacidade dos dados dos funcionários, mas também assegura a integridade e confiabilidade do sistema. Implementar robustas medidas de segurança é fundamental para prevenir acessos não autorizados, ataques cibernéticos e potenciais fraudes. Além disso, garantir a conformidade com regulamentações de proteção de dados é vital para evitar penalidades legais e manter a confiança dos usuários na plataforma.
+
+A seguir estão considerações de ferramentas e políticas que podem ser úteis para a segurança da plataforma, assim como seus objetivos
+
+### 1. Autenticação
+Objetivo: Garantir que apenas usuários autorizados possam acessar o sistema.
+
+* Autenticação Multifator (MFA): Implementar MFA para adicionar uma camada extra de segurança além das senhas. Isso pode incluir uma senha secundária, um token ou validação de número de celular ou algo característico do usuário, como sua impressão digital ou reconhecimento facial.
+* Política de Senhas Fortes: Exigir senhas complexas que incluam uma combinação de letras maiúsculas, minúsculas, números e caracteres especiais. Também, implementar a expiração periódica das senhas e proibir o reuso de senhas antigas.
+* Single Sign-On (SSO): Considerar o uso de SSO (mecanismo de autenticação que permite que um usuário acesse múltiplas aplicações e serviços com uma única credencial de login) para facilitar o gerenciamento de autenticação e reduzir a carga de manter múltiplas credenciais.
+
+### 2. Autorização
+
+* Controle de Acesso Baseado em Funções: Definir funções com permissões específicas e atribuir usuários a essas funções, garantindo acesso apenas ao que é necessário para cada.
+* Princípio do Menor Privilégio: Conceder aos usuários o nível mínimo de acesso necessário para realizar suas tarefas.
+
+### 3. Proteção contra Ataques
+
+Firewalls e IDS/IPS: Utilizar firewalls para filtrar tráfego indesejado e sistemas de detecção/prevenção de intrusões (IDS/IPS) para monitorar e bloquear atividades suspeitas.
+
+### 4. Monitoramento e Auditoria
+
+* Logs de Auditoria: Manter logs detalhados de todas as atividades do sistema, incluindo tentativas de login, acessos a dados sensíveis e alterações de configuração.
+* Monitoramento Contínuo: Implementar ferramentas de monitoramento para analisar os logs em tempo real e identificar comportamentos anômalos.
+* Alertas e Notificações: Configurar alertas automáticos para atividades suspeitas, como múltiplas tentativas de login falhadas ou acesso a dados sensíveis fora do horário normal de trabalho.
+
+### 5. Backup e Recuperação
+
+* Backups Regulares: Realizar backups frequentes dos dados e armazená-los em locais seguros.
+* Planos de Recuperação de Desastres: Desenvolver e testar planos de recuperação para restaurar o sistema rapidamente em caso de falhas ou ataques.
+
+### 6. Conformidade e Regulamentações
+
+* Compliance com GDPR, LGPD, etc.: Garantir que o tratamento de dados pessoais esteja em conformidade com regulamentações como a GDPR (General Data Protection Regulation) na Europa e a LGPD (Lei Geral de Proteção de Dados) no Brasil.
+* Auditorias de Segurança: Realizar auditorias periódicas para verificar a conformidade e identificar áreas de melhoria na segurança.
+
+
 ## Implantação
 
 [Instruções para implantar a aplicação distribuída em um ambiente de produção.]
