@@ -73,6 +73,14 @@ Página para verificar os gastos já registrados.
 
 ![Cadastro.png](/src/IMAGE/Cadastro.png)
 
+# Página de Perguntas Frequentes(FAQ)
+
+![FAQ.png](/src/IMAGE/FAQ.png)
+
+# Página de Sobre os Componentes do Grupo
+
+![Sobre.png](/src/IMAGE/Sobre.png)
+
 ### Wireframes
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
 
