@@ -49,11 +49,18 @@ Esta página é utilizada para o usuário escolher se ele deseja acessar a seç�
 
 ![Página_Gastos](/src/IMAGE/Página_Gastos.png)
 
-Seção utilizada para consultar ou cadastrar novos gastos. 
+# Página de Cadastro de Gastos
 
 ![Registrar_Gastos.png](/src/IMAGE/Registrar_Gastos.png)
 
 Página utilizada para cadastrar novos gastos do funcionário.
+
+# Página de Constulta de Gastos
+
+![Consulta.png](/src/IMAGE/Consultar.png)
+
+Página para verificar os gastos já registrados. 
+
 
 ### Wireframes
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
