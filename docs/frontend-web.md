@@ -45,7 +45,7 @@ Nesta página será possível o usuário fazer login para verificar os seus gast
 
 Esta página é utilizada para o usuário escolher se ele deseja acessar a seção de funcionários ou gastos.
 
-# Página de Gasto
+# Página de Gastos
 
 ![Página_Gastos](/src/IMAGE/Página_Gastos.png)
 
@@ -61,6 +61,17 @@ Página utilizada para cadastrar novos gastos do funcionário.
 
 Página para verificar os gastos já registrados. 
 
+# Página dos Funcionários
+
+![Func_Principal.png](/src/IMAGE/Func_Principal.png)
+
+# Página de consulta dos Funcionários
+
+![Consultar Funcionários.png](/src/IMAGE/Consultar%20Funcionários.png)
+
+# Página de Cadastrar  Funcionários
+
+![Cadastro.png](/src/IMAGE/Cadastro.png)
 
 ### Wireframes
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
