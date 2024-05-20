@@ -14,7 +14,10 @@ Segue as lista de tecnologias utilizadas:
 
 ## Arquitetura
 
-[Descrição da arquitetura das aplicação web, incluindo os componentes e suas interações.]
+Segue a imagem da arquitetura da aplicação Web.
+
+![Arquitetura Web](/src/IMAGE/Arquitetura%20Web.png)
+
 
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
