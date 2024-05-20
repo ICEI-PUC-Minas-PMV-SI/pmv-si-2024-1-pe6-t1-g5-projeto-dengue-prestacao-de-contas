@@ -39,9 +39,13 @@ Segue a imagem da arquitetura da aplicação Web.
 
 Nesta página será possível o usuário fazer login para verificar os seus gastos, olhar a seção de FAQ(Perguntas Frequentes) para retirar as sua dúvidas sobre o painel e aplicativo da solução.
 
-![Página_Home](/src/IMAGE/Página_Home.png)
+# Página Home
+
+![Página_Home](/src/IMAGE/home.png)
 
 Esta página é utilizada para o usuário escolher se ele deseja acessar a seção de funcionários ou gastos.
+
+# Página de Gasto
 
 ![Página_Gastos](/src/IMAGE/Página_Gastos.png)
 
