@@ -218,17 +218,21 @@ Nós elaboramos 2 casos de teste da aplicação, onde utilizamos a metodologia d
 
  Basicamente o testador da aplicação vai tentar fazer login na página com os campos de login e senha sem preenchê-los. Para fazer o login, basta o usuário clicar em entrar.
 
- Felizmente como esperado, a solução manda uma mensagem padrão para o usuário, onde o solicita para preencher o campos obrigatórios para fazer o login.
+ Felizmente como esperado, a solução manda uma mensagem padrão para o usuário, onde o solicita para preencher o campos obrigatórios para fazer o login. 
+
+ Segue um registro da tela com o teste.
+
+ ![Sucesso_1.png](/src/IMAGE/Sucesso_1.png)
 
 ### Análise de Resultados
 
 Como basicamente o resultado do teste foi um sucesso, não será necessário refazer o código da solução.
 
-## **Teste 2**: Cadastro de uma nova despesa
+## **Teste 2**: Cadastro incorreto de uma nova despesa
 
  ### Objetivo
 
- O segundo teste foi executado com o fundamento de checar a possibildade de cadastrar um novo gasto sem preencher um novo gasto.
+ O segundo teste foi executado com o fundamento de checar a possibildade de cadastrar um novo gasto com um valor que não deve ser aceitável.
 
  ### Demonstração do Código 
 
@@ -236,11 +240,13 @@ Como basicamente o resultado do teste foi um sucesso, não será necessário ref
 
  ### Execução do Teste 
 
- Testador da aplicação irá acessar a página de cadastro de nova despesa e tentar preencher os campos de forma incorreta e tentar registrar o gasto.
+ Testador da aplicação irá acessar a página de cadastro de nova despesa e vai tentar preencher os campos de forma incorreta e tentar registrar o gasto.
 
  No campo de Valor de Despesa, ele irá tentar preencher o campo com letras(A,B,C...) e caracteres especiais(!,@,#...).
 
- Como esperado
+ Como esperado, não será possível preencher o usuário preencher o campo incorretamente. Segue um registro do teste.
+
+![Sucesso_2.png](/src/IMAGE/Sucesso_2.png)
 
 ### Análise de Resultados
 
