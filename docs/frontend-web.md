@@ -41,7 +41,7 @@ Nesta página será possível o usuário fazer login para verificar os seus gast
 
 # Página Home
 
-![Página_Home](/src/IMAGE/home.png)
+![Página_Home](/src/IMAGE/Home_Correta.png)
 
 Esta página é utilizada para o usuário escolher se ele deseja acessar a seção de funcionários ou gastos.
 
