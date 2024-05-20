@@ -212,6 +212,8 @@ Nós elaboramos 2 casos de teste da aplicação, onde utilizamos a metodologia d
 
  ### Demonstração do Código 
 
+ ![Código_Teste1.png](/src/IMAGE/Código_Teste1.png)
+
  ### Execução do Teste 
 
  Basicamente o testador da aplicação vai tentar fazer login na página com os campos de login e senha sem preenchê-los. Para fazer o login, basta o usuário clicar em entrar.
@@ -229,6 +231,8 @@ Como basicamente o resultado do teste foi um sucesso, não será necessário ref
  O segundo teste foi executado com o fundamento de checar a possibildade de cadastrar um novo gasto sem preencher um novo gasto.
 
  ### Demonstração do Código 
+
+ ![Código_Teste2.png](/src/IMAGE/Código_Teste2.png)
 
  ### Execução do Teste 
 
