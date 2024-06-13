@@ -23,6 +23,32 @@ Segue primeiramente os design de todas as telas que foram desenvolvidas no App.
 
 ![Página_Login](/src/IMAGE/Telas%20Figma.png)
 
+### Tela 1 - Tela de Carregamento
+
+Assim que o usuário abrir a aplicação em seu smartphone, essa tela irá aparecer.
+
+### Tela 2 - Tela de Login
+
+Após o carregamento da página, o usuário vai colocar as suas credenciais de acesso para utilizar as funcionalidades da aplicação.
+
+Caso ele não lembre a sua senha, basta ele clicar em "Esqueci a minha senha" para iniciar o procedimento de recuperação de senha.
+
+### Tela 3 - Tela Para Escolher Funcionalidade
+
+Com o login efetuado, o usuário escolherá qual funcionalidade ele deseja acessar, ou seja, registrar um novo gasto ou consultar o que ele cadastrou.
+
+### Tela 4 - Cadastrar Novo Custo
+
+Para que o custo seja enviado para o painel, basta o usuário preencher os campos listados, ou seja: 
+* Data de despesa;
+* Valor do gasto;
+* Tipo de despesa;
+* Estado e cidade onde foi gasto a quantia em questão.
+
+### Tela 5 - Tela de Consulta de Gastos
+
+Basicamente é o local onde os usuários conseguem consultar os seus gastos.
+
 ### Layout Responsivo
 [Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
 
