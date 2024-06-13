@@ -89,6 +89,8 @@ Basicamente é o local onde os usuários conseguem consultar os seus gastos.
 
 ## Requisitos Não Funcionais
 
+| ID | Descrição do Requisito | Prioridade |
+| --- | --- | --- |
 | RF-001 | O aplicativo deve implementar medidas de segurança para proteger os dados sensíveis dos usuários. | Alta |
 | RF-002 | Deve haver políticas claras de privacidade e conformidade com regulamentações de proteção de dados como LGPD. | Alta |
 | RF-003 |O aplicativo deve ter um desempenho rápido e responsivo, mesmo em condições de rede variáveis ou dispositivos móveis com recursos limitados.| Alta |
