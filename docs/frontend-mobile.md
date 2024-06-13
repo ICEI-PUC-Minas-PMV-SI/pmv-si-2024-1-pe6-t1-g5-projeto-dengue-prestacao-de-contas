@@ -81,8 +81,7 @@ Basicamente é o local onde os usuários conseguem consultar os seus gastos.
 | RF-005 | Os usuários devem ser capazes de inserir informações sobre uma despesa, incluindo data, valor, categoria, cidade e estado .  | Alta |
 | RF-006 | Deve ser fornecida uma opção para anexar comprovantes ou recibos de despesas.  | Alta |
 | RF-007 | Os usuários devem poder visualizar todas as despesas cadastradas.  | Alta |
-| RF-008 | O menu deve conter opções para acessar as funcionalidades principais 
-do aplicativo, ou seja, cadastrar despesa ou visualizar despesas.  | Alta |
+| RF-008 | O menu deve conter opções para acessar as funcionalidades principais do aplicativo, ou seja, cadastrar despesa ou visualizar despesas.  | Alta |
 | RF-009 |  Deve ser fácil de acessar a partir de qualquer tela do aplicativo, oferecendo uma navegação intuitiva.  | Alta |
 | RF-010 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
 | RF-011 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
@@ -114,13 +113,7 @@ do aplicativo, ou seja, cadastrar despesa ou visualizar despesas.  | Alta |
 
 ## Testes
 
-[Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
-
-1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
-2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
-3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
-4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
-5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
+### 
 
 # Referências
 
