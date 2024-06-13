@@ -21,7 +21,7 @@
 ### Design Visual
 Segue primeiramente os design de todas as telas que foram desenvolvidas no App.
 
-![Telas_Criadas](src/IMAGE/Telas Figma.png)
+![Página_Login](/src/IMAGE/Telas%20Figma.png)
 
 ### Layout Responsivo
 [Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
