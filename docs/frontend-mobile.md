@@ -21,7 +21,18 @@
 ### Design Visual
 Segue primeiramente os design de todas as telas que foram desenvolvidas no App.
 
-![Página_Login](/src/IMAGE/Telas%20Figma.png)
+![Página_Login](/src/IMAGE/Telas.png)
+
+### Paletas de cores
+
+Para o plano de fundo, foi utilizado o seguinte Hexadecimal:
+
+* #FFFFFF.
+
+Já para os botões de navegação, os seguinte Hexadecimais foram utilizado:
+
+* #656565;
+* #B4CF12;
 
 ### Tela 1 - Tela de Carregamento
 
