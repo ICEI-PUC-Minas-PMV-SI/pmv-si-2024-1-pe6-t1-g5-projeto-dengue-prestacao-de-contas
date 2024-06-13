@@ -78,13 +78,14 @@ Basicamente é o local onde os usuários conseguem consultar os seus gastos.
 | RF-002 | Haverá opção para recuperação de senha caso o usuário esqueça. | Média |
 | RF-003 | O sistema deve mostrar todo detalhamento para se registrar um novo gasto, como do tipo de despesa e foto do comprovante| Alta |
 | RF-004 | Os usuários devem ser direcionados para a tela principal do aplicativo após a autenticação.  | Alta |
-| RF-004 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
-| RF-004 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
-| RF-004 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
-| RF-004 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
-| RF-004 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
-| RF-004 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
-| RF-004 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
+| RF-005 | Os usuários devem ser capazes de inserir informações sobre uma despesa, incluindo data, valor, categoria, cidade e estado .  | Alta |
+| RF-006 | Deve ser fornecida uma opção para anexar comprovantes ou recibos de despesas.  | Alta |
+| RF-007 | Os usuários devem poder visualizar todas as despesas cadastradas.  | Alta |
+| RF-008 | O menu deve conter opções para acessar as funcionalidades principais 
+do aplicativo, ou seja, cadastrar despesa ou visualizar despesas.  | Alta |
+| RF-009 |  Deve ser fácil de acessar a partir de qualquer tela do aplicativo, oferecendo uma navegação intuitiva.  | Alta |
+| RF-010 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
+| RF-011 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
 
 
 ## Requisitos Não Funcionais
