@@ -19,7 +19,9 @@
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
 
 ### Design Visual
-[Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
+Segue primeiramente os design de todas as telas que foram desenvolvidas no App.
+
+![Telas_Criadas](src/IMAGE/Telas Figma.png)
 
 ### Layout Responsivo
 [Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
