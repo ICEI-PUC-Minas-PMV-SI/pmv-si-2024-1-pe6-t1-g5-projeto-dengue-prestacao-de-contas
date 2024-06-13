@@ -90,7 +90,12 @@ do aplicativo, ou seja, cadastrar despesa ou visualizar despesas.  | Alta |
 
 ## Requisitos Não Funcionais
 
-[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
+| RF-001 | O aplicativo deve implementar medidas de segurança para proteger os dados sensíveis dos usuários. | Alta |
+| RF-002 | Deve haver políticas claras de privacidade e conformidade com regulamentações de proteção de dados como LGPD. | Alta |
+| RF-003 |O aplicativo deve ter um desempenho rápido e responsivo, mesmo em condições de rede variáveis ou dispositivos móveis com recursos limitados.| Alta |
+| RF-004 | Os tempos de carregamento de telas e operações devem ser mínimos, garantindo uma experiência de usuário fluida e sem interrupções.  | Alta |
+| RF-005 | Deve ser testado em diferentes dispositivos e plataformas para garantir sua funcionalidade e usabilidade em cenários diversos.  | Alta |
+| RF-006 | A interface do usuário deve ser intuitiva e fácil de usar, seguindo as diretrizes de design de interface móvel.  | Alta |
 
 
 ## Considerações de Segurança
