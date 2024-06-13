@@ -72,7 +72,20 @@ Basicamente é o local onde os usuários conseguem consultar os seus gastos.
 
 ## Requisitos Funcionais
 
-[Liste os principais requisitos funcionais da aplicação.]
+| ID | Descrição do Requisito | Prioridade |
+| --- | --- | --- |
+| RF-001 | Os usuários devem ser capazes de autenticar-se utilizando credenciais válidas, inserindo e-mail e senha. | Alta |
+| RF-002 | Haverá opção para recuperação de senha caso o usuário esqueça. | Média |
+| RF-003 | O sistema deve mostrar todo detalhamento para se registrar um novo gasto, como do tipo de despesa e foto do comprovante| Alta |
+| RF-004 | Os usuários devem ser direcionados para a tela principal do aplicativo após a autenticação.  | Alta |
+| RF-004 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
+| RF-004 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
+| RF-004 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
+| RF-004 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
+| RF-004 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
+| RF-004 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
+| RF-004 | Após a autenticação bem-sucedida, os usuários devem ser direcionados para a tela principal do aplicativo.  | Média |
+
 
 ## Requisitos Não Funcionais
 
