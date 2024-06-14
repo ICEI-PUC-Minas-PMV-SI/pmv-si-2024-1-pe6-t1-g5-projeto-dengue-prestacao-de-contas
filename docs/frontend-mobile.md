@@ -166,5 +166,6 @@ Essa mensagem deve aparecer para o usuário: “Dados inseridos estão incorreto
 # Referências
 
 
-* Kodular Docs: Introduction **Kodular**, [s.d.]. Disponível em: https://docs.kodular.io/. Acesso em 16 de maio de 2024.
+* Kodular Docs: Introduction. **Kodular**, [s.d.]. Disponível em: https://docs.kodular.io/. Acesso em 1 de junho de 2024.
 
+* Documentação do Firebase - Google. **Firebase**, [s.d.]. Disponível em: https://firebase.google.com/docs?hl=pt-br. Axcesso em 1 de junho de 2024.
