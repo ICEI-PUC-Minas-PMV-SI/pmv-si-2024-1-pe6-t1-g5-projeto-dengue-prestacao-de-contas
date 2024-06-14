@@ -115,7 +115,51 @@ Basicamente é o local onde os usuários conseguem consultar os seus gastos.
 
 ## Testes
 
-### 
+## Teste 1: Integração Entre Tela de Login e Tela de Menu
+
+### Objetivo
+
+Verificar se o usuário autenticado pode acessar a tela de cadastro de despesa após o login.
+
+### Passos: 
+* 1 - Realizar o login com credenciais válidas;
+* 2 - Verificar se a tela do Menu é exibida após o login.
+
+### Resultado Esperado
+
+O menu autenticado é redirecionado com sucesso para a tela de Menu.
+
+
+## Teste 2: Integração Entre Tela de Cadastro de Despesa e Tela de Visualização de Despesas
+
+### Objetivo
+
+Verificar se as despesas cadastradas são exibidas corretamente na tela de visualização.
+
+*### Passos: 
+* 1 - Adicionar uma nova despesa;
+* 2 - Navegar para a tela de visualização de despesas;
+* 3 - Verificar se a despesa cadastrada é exibida na tela de despesas.
+
+### Resultado Esperado
+
+A nova despesa é exibida na lista de despesas, na tela de visualização de despesas.
+
+
+## Teste 1: Integração Entre Tela de Login e Tela de Visualização de Despesas
+
+### Objetivo
+
+Verificar se o usuário autenticado pode acessar diretamente a tela de visualização de despesas após o login, passando para o Menu.
+
+### Passos: 
+* 1 - Realizar o login com credenciais inválidas.
+
+### Resultado Esperado
+
+Essa mensagem deve aparecer para o usuário: “Dados inseridos estão incorretos”.
+
+
 
 # Referências
 
