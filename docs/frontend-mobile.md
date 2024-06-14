@@ -115,7 +115,7 @@ Basicamente é o local onde os usuários conseguem consultar os seus gastos.
 
 ## Testes
 
-## Teste 1: Integração Entre Tela de Login e Tela de Menu
+## Teste 3: Integração Entre Tela de Login e Tela de Visualização de Despesas
 
 ### Objetivo
 
@@ -136,7 +136,7 @@ O menu autenticado é redirecionado com sucesso para a tela de Menu.
 
 Verificar se as despesas cadastradas são exibidas corretamente na tela de visualização.
 
-*### Passos: 
+### Passos: 
 * 1 - Adicionar uma nova despesa;
 * 2 - Navegar para a tela de visualização de despesas;
 * 3 - Verificar se a despesa cadastrada é exibida na tela de despesas.
