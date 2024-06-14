@@ -3,7 +3,9 @@
 [Inclua uma breve descrição do projeto e seus objetivos.]
 
 ## Tecnologias Utilizadas
-[Lista das tecnologias principais que serão utilizadas no projeto.]
+
+* API Firebase Realtime Database;
+* Kodular - Plataforma de desenvolvimento mobile.  
 
 ## Arquitetura
 
@@ -163,4 +165,6 @@ Essa mensagem deve aparecer para o usuário: “Dados inseridos estão incorreto
 
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+
+* Kodular Docs: Introduction **Kodular**, [s.d.]. Disponível em: https://docs.kodular.io/. Acesso em 16 de maio de 2024.
+
