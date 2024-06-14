@@ -115,7 +115,7 @@ Basicamente é o local onde os usuários conseguem consultar os seus gastos.
 
 ## Testes
 
-## Teste 3: Integração Entre Tela de Login e Tela de Visualização de Despesas
+## Teste 1: Integração Entre Tela de Login e Tela de Visualização de Despesas
 
 ### Objetivo
 
@@ -146,7 +146,7 @@ Verificar se as despesas cadastradas são exibidas corretamente na tela de visua
 A nova despesa é exibida na lista de despesas, na tela de visualização de despesas.
 
 
-## Teste 1: Integração Entre Tela de Login e Tela de Visualização de Despesas
+## Teste 3: Integração Entre Tela de Login e Tela de Visualização de Despesas
 
 ### Objetivo
 
