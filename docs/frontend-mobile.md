@@ -31,7 +31,17 @@ Com o uso do Firebase Realtime, os dados serão armazenados conforme a imagem a 
 
 
 ## Projeto da Interface
-[Descreva o projeto da interface móvel da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
+
+A aplicação elaborada foi composta por 5 telas.
+
+* 1 - Tela de carregamento ao abrir a aplicação;
+* 2 - Tela de login para o acesso do funcionário;
+* 3 - Tela de navegação na qual o usuário vai escolher registrar ou verificar gastos;
+* 4 - Tela de registro será onde o usuário colocará todo o detalhamento de um gasto específico;
+* 5 - Tela de histórico, onde mostrará as justificativas de gasto do funcionário.
+
+A imagens das telas está na seção "Design Visual".
+
 
 ### Wireframes
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
