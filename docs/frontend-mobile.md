@@ -12,6 +12,10 @@ O ambiente utilizado para desenvolvimento da aplicação mobile é feito em bloc
 ![Código em Bloco](/src/IMAGE/Código.png)
 
 
+Além disso, API utilzada vai enviar as fotos para nuvem, chamada Firebase Realtime.
+
+![Realtime + BD](/src/IMAGE/Realtime%20e%20Banco%20de%20dados.png.png)
+
 ## Geração de APK(Android Application Pack)
 
 Para que o cliente consiga baixa a aplicação em seu dispositivo móvel, basta que o responsável pelo desenvolvimento gere APK através do próprio Kodular, a imagem a baixo mostra o procedimento.
