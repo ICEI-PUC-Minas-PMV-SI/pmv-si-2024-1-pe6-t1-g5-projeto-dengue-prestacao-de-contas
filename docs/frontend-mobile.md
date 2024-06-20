@@ -1,11 +1,11 @@
 # Front-end Móvel
 
-[Inclua uma breve descrição do projeto e seus objetivos.]
+A aplicação móvel será útil para o funcionário para registrar seus gastos de formas simples, além de conseguir verificar o histórico dos seus gastos anteriores.
 
 ## Tecnologias Utilizadas
 
 * API Firebase Realtime Database;
-* Kodular - Plataforma de desenvolvimento mobile.  
+* Kodular - Plataforma de desenvolvimento mobile em bloco.  
 
 ## Arquitetura
 
