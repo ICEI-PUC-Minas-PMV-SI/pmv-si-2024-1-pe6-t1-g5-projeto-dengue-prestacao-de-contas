@@ -11,7 +11,7 @@
 
 Segue o modelo o qual indica a comunicação da solução elaborada pelo grupo.
 
-![Arquitetura Web](/src/IMAGE/Arquitetura%20Web.png)
+![Arquitetura Mobile](/src/IMAGE/Arquitetura%20Mobile.png)
 
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
