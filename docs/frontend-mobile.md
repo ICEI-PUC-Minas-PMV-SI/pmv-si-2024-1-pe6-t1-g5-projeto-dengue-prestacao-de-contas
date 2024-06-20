@@ -14,7 +14,21 @@ Segue o modelo o qual indica a comunicação da solução elaborada pelo grupo.
 ![Arquitetura Mobile](/src/IMAGE/Arquitetura%20Mobile.png)
 
 ## Modelagem da Aplicação
-[Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
+Em primeiro momento, o usuário deve registrar um novo gasto em seu aplicativo.
+
+Segue uma lista com os dados que ele deve preencher:
+
+* Data da despesa;
+* Valor de gasto;
+* Tipo de despesa;
+*Estado;
+*Cidade;
+* Imagem;
+
+Com o uso do Firebase Realtime, os dados serão armazenados conforme a imagem a baixo.
+
+![Estrutura de Dados](/src/IMAGE/Dados%20Mobile.png)
+
 
 ## Projeto da Interface
 [Descreva o projeto da interface móvel da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
