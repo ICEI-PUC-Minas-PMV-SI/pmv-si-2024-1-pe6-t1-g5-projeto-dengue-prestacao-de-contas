@@ -7,6 +7,10 @@ A aplicação móvel será útil para o funcionário para registrar seus gastos 
 * API Firebase Realtime Database;
 * Kodular - Plataforma de desenvolvimento mobile em bloco.  
 
+O ambiente utilizado para desenvolvimento da aplicação mobile é feito em blocos, segue um registro da programação utilizada na solução.
+
+![Arquitetura Mobile](/src/IMAGE/Código%20.png.png)
+
 ## Arquitetura
 
 Segue o modelo o qual indica a comunicação da solução elaborada pelo grupo.
@@ -47,7 +51,7 @@ A imagens das telas está na seção "Design Visual".
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
 
 ### Design Visual
-Segue primeiramente os design de todas as telas que foram desenvolvidas no App.
+Segue o design de todas as telas que foram desenvolvidas para o aplicativo.
 
 ![Página_Login](/src/IMAGE/Telas.png)
 
