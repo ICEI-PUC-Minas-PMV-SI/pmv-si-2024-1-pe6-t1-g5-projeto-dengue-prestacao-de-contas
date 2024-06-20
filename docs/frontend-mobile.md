@@ -9,13 +9,13 @@ A aplicação móvel será útil para o funcionário para registrar seus gastos 
 
 O ambiente utilizado para desenvolvimento da aplicação mobile é feito em blocos, segue um registro da programação utilizada na solução.
 
-![Arquitetura Mobile](/src/IMAGE/Arquitetura%20Mobile.png)
+![Código em Bloco](/src/IMAGE/Código.png)
 
 ## Arquitetura
 
 Segue o modelo o qual indica a comunicação da solução elaborada pelo grupo.
 
-![Arquitetura Mobile](/src/IMAGE/Código.png)
+![Arquitetura Mobile](/src/IMAGE/Arquitetura%20Mobile.png)
 
 ## Modelagem da Aplicação
 Em primeiro momento, o usuário deve registrar um novo gasto em seu aplicativo.
