@@ -11,6 +11,13 @@ O ambiente utilizado para desenvolvimento da aplicação mobile é feito em bloc
 
 ![Código em Bloco](/src/IMAGE/Código.png)
 
+
+## Geração de APK(Android Application Pack)
+
+Para que o cliente consiga baixa a aplicação em seu dispositivo móvel, basta que o responsável pelo desenvolvimento gere APK através do próprio Kodular, a imagem a baixo mostra o procedimento.
+
+![Gerar APK](/src/IMAGE/Gerar%20APK.png)
+
 ## Arquitetura
 
 Segue o modelo o qual indica a comunicação da solução elaborada pelo grupo.
