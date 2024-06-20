@@ -14,7 +14,7 @@ O ambiente utilizado para desenvolvimento da aplicação mobile é feito em bloc
 
 Além disso, API utilzada vai enviar as fotos para nuvem, chamada Firebase Realtime.
 
-![Realtime + BD](/src/IMAGE/Realtime%20e%20Banco%20de%20dados.png.png)
+![Realtime + BD](/src/IMAGE/Realtime%20e%20Banco%20de%20dados.png)
 
 ## Geração de APK(Android Application Pack)
 
