@@ -151,13 +151,11 @@ Desta forma, caberá a empresa a conferir quais são as pessoas poderão justifi
 
 ## Implantação
 
-[Instruções para implantar a aplicação distribuída em um ambiente de produção.]
+Para se utilizar a aplicação, é recomendável que o responsável tenha um telefone com o sistema operacional Android e que possua no mínimo 2 GB de RAM e por volta de 25 MB de espaço para instalar a aplicação. 
 
-1. Defina os requisitos de hardware e software necessários para implantar a aplicação em um ambiente de produção.
-2. Escolha uma plataforma de hospedagem adequada, como um provedor de nuvem ou um servidor dedicado.
-3. Configure o ambiente de implantação, incluindo a instalação de dependências e configuração de variáveis de ambiente.
-4. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.
-5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
+Como mostrado na terceira imagem desta página, o Kodular permite gerar o APK como mostrado na terceira imagem desta seção.
+
+Com isso, basta que o responsável pela aplicação envie o arquivo que contém o software para os usuários.
 
 ## Testes
 
