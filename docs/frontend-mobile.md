@@ -103,11 +103,6 @@ Para que o custo seja enviado para o painel, basta o usuário preencher os campo
 
 Basicamente é o local onde os usuários conseguem consultar os seus gastos.
 
-### Layout Responsivo
-[Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
-
-### Interações do Usuário
-[Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
 
 ## Fluxo de Dados
 
