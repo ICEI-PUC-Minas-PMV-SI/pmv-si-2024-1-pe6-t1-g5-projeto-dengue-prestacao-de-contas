@@ -139,7 +139,15 @@ Basicamente é o local onde os usuários conseguem consultar os seus gastos.
 
 ## Considerações de Segurança
 
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+Para a segurança da organização que vai utilizar a aplicação no seu dia a dia, somente os usuários autorizados terão acesso ao aplicativo.
+
+Isso acontecerá da seguinte forma:
+* Será solicitado ao funcionário baixar a aplicação em seu telefone;
+* O supervisor do usuário deve fornecê-lo os seus acessos(Usuário e senha).
+
+
+Desta forma, caberá a empresa a conferir quais são as pessoas poderão justificar os seus gastos de forma simples e segura.
+
 
 ## Implantação
 
