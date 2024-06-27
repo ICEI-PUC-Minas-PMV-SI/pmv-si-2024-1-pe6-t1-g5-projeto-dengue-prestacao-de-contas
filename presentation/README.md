@@ -1,6 +1,9 @@
 # Apresentação da Solução - Vídeos e Slides 
 
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
+Segue o link para a apresentação em PDF e o vídeo que explica o nosso projeto.
+
+
+[Apresentação Final .pdf](https://github.com/user-attachments/files/16006309/Apresentacao.Final.pdf)
 
 
 
@@ -11,4 +14,4 @@ https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g5-projeto-dengue-
 
 
 
-[Apresentação Final .pdf](https://github.com/user-attachments/files/16006309/Apresentacao.Final.pdf)
+
