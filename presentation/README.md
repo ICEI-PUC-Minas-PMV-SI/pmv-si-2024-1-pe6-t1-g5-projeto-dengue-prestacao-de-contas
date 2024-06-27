@@ -3,7 +3,7 @@
 Segue o link para a apresentação em PDF e o vídeo que explica o nosso projeto.
 
 
-[Apresentação Final .pdf](https://github.com/user-attachments/files/16006309/Apresentacao.Final.pdf)
+Arquivo  da apresebtação => [Apresentação Final .pdf](https://github.com/user-attachments/files/16006309/Apresentacao.Final.pdf)
 
 
 
