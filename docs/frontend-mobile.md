@@ -81,15 +81,33 @@ Já para os botões de navegação, os seguinte Hexadecimais foram utilizado:
 
 Assim que o usuário abrir a aplicação em seu smartphone, essa tela irá aparecer.
 
+Segue o código utilizado.
+
+
+![Carregamento](/src/IMAGE/Carregamento.jpeg)
+
 ### Tela 2 - Tela de Login
 
 Após o carregamento da página, o usuário vai colocar as suas credenciais de acesso para utilizar as funcionalidades da aplicação.
 
 Caso ele não lembre a sua senha, basta ele clicar em "Esqueci a minha senha" para iniciar o procedimento de recuperação de senha.
 
+
+Segue o código utilizado.
+
+
+![Código_Login](/src/IMAGE/Código_Login.jpeg)
+
 ### Tela 3 - Tela Para Escolher Funcionalidade
 
 Com o login efetuado, o usuário escolherá qual funcionalidade ele deseja acessar, ou seja, registrar um novo gasto ou consultar o que ele cadastrou.
+
+
+
+Segue o código utilizado.
+
+
+![Home](/src/IMAGE/Tela_Home.jpeg)
 
 ### Tela 4 - Cadastrar Novo Custo
 
@@ -99,9 +117,20 @@ Para que o custo seja enviado para o painel, basta o usuário preencher os campo
 * Tipo de despesa;
 * Estado e cidade onde foi gasto a quantia em questão.
 
+Segue o código utilizado.
+
+
+![Novo_Gasto](/src/IMAGE/Adicionar%20Despesa.jpeg)
+
 ### Tela 5 - Tela de Consulta de Gastos
 
 Basicamente é o local onde os usuários conseguem consultar os seus gastos.
+
+
+Segue o código utilizado.
+
+
+![Listar_Depesa](/src/IMAGE/Listar_Despesa.jpeg)
 
 
 ## Fluxo de Dados
